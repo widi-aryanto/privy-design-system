@@ -7,7 +7,7 @@ description: Sub-component for creating spread animation.
   import pSpread from './Spread.vue'
   import pCheckbox from '../checkbox/Checkbox.vue'
   import IconFile from '@privyid/persona-icon/vue/document-filled/32.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const active = ref(false)
 </script>

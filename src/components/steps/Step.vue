@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import type { TravelHook } from '.'
 import { useStep } from '.'
 

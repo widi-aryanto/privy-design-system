@@ -8,7 +8,7 @@ import {
 } from './__mocks__/use-drag'
 import { useElementBounding } from './__mocks__/use-element-bounding'
 import InputRange from './InputRange.vue'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import { delay } from 'nanodelay'
 
 class FakeMouseEvent extends MouseEvent {

@@ -1,7 +1,7 @@
 import type { MaybeRef } from '@vueuse/core'
 import {
   onBeforeUnmount, ref, unref,
-} from 'vue-demi'
+} from 'vue'
 import type { Options, Splide } from '@splidejs/splide'
 import defu from 'defu'
 

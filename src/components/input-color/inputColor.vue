@@ -41,8 +41,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
+import { computed } from 'vue'
 import { useVModel } from '../input'
 import IconCheckmarkCircleSolid20 from '@privyid/persona-icon/vue/checkmark-circle-solid/20.vue'
 import IconCheckmarkCircleSolid24 from '@privyid/persona-icon/vue/checkmark-circle-solid/24.vue'

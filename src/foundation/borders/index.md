@@ -6,7 +6,7 @@ description: Collections of borders, outlines and radius library
 <script setup>
   import pCaption from '../../components/caption/Caption.vue'
   import pHeading from '../../components/heading/Heading.vue'
-  import { ref, computed } from "vue-demi"
+  import { ref, computed } from 'vue'
 </script>
 
 # Borders and Outlines

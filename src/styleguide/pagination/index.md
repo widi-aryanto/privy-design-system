@@ -5,7 +5,7 @@ description: Pagination style guide
 
 <script setup>
   import pPagination from '../../components/pagination/Pagination.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import IconPrev from '@privyid/persona-icon/vue/chevron-left/20.vue'
   import IconNext from '@privyid/persona-icon/vue/chevron-right/20.vue'
 
@@ -104,9 +104,9 @@ Pagination allows you to divide large amounts of content into smaller chunks acr
 #### Navigation Only with text
 
 <div class="py-6 nav-left">
-  <p-pagination 
-    v-model="page" 
-    :total="total" 
+  <p-pagination
+    v-model="page"
+    :total="total"
     navigation-only
     navigation-text
     prev-nav-label="Previous"
@@ -119,9 +119,9 @@ Pagination allows you to divide large amounts of content into smaller chunks acr
 #### Navigation Only Text and icon
 
 <div class="py-6 nav-left">
-  <p-pagination 
-    v-model="page" 
-    :total="total" 
+  <p-pagination
+    v-model="page"
+    :total="total"
     navigation-only
     navigation-text
     variant="far"
@@ -142,10 +142,10 @@ Pagination allows you to divide large amounts of content into smaller chunks acr
 #### Jump to page
 
 <div class="py-6 nav-left">
-  <p-pagination 
-    v-model="page" 
+  <p-pagination
+    v-model="page"
     v-model:per-page="perPage"
-    :total="total" 
+    :total="total"
     quick-jump>
   </p-pagination>
 </div>
@@ -158,10 +158,10 @@ Pagination allows you to divide large amounts of content into smaller chunks acr
 #### With Detail
 
 <div class="py-6 nav-left">
-  <p-pagination 
-    v-model="page" 
-    v-model:per-page="perPage" 
-    :total="total" 
+  <p-pagination
+    v-model="page"
+    v-model:per-page="perPage"
+    :total="total"
     show-detail>
     <template #pagination-count="{ range, total }">
       {{ range[0] }} to {{ range[1] }} from {{ total }}
@@ -169,15 +169,15 @@ Pagination allows you to divide large amounts of content into smaller chunks acr
   </p-pagination>
 </div>
 <p-caption class="!text-subtle">
-  Usage: The pagination with detail usualy used for the page has a large amout. so the user can set by themself how many pages they liked to shown. 
+  Usage: The pagination with detail usualy used for the page has a large amout. so the user can set by themself how many pages they liked to shown.
 </p-caption>
 
 #### Without Detail
 
 <div class="py-6 nav-left">
-  <p-pagination 
-    v-model="page" 
-    v-model:per-page="perPage" 
+  <p-pagination
+    v-model="page"
+    v-model:per-page="perPage"
     :total="total" />
 </div>
 <p-caption class="!text-subtle">
@@ -195,13 +195,13 @@ Pagination allows you to divide large amounts of content into smaller chunks acr
     <p>On all platforms, pagination should</p>
     <ul>
       <li>Only be used for lists with more than 25 items</li>
-    </ul> 
+    </ul>
     <p>Web pagination should</p>
     <ul>
       <li>Be placed at the bottom of a long list that has been split up into pages</li>
       <li>Pagination should navigate to the previous and next set of items in the paged list</li>
       <li>Hint when merchants are at the first or the last page by disabling the corresponding button</li>
-    </ul> 
+    </ul>
   </div>
 </div>
 
@@ -212,14 +212,14 @@ Pagination allows you to divide large amounts of content into smaller chunks acr
     <ul>
       <li>Use Pagination to let users page through items where a user is trying to find a specific item.</li>
       <li>
-        Add custom, context-specific information to page labels and left and right page controls 
+        Add custom, context-specific information to page labels and left and right page controls
         to give customers more clarity about where they are and where they’re going, when needed.
       </li>
       <li>
-        Show current page count whenever possible so users understand where they are in a dataset, 
+        Show current page count whenever possible so users understand where they are in a dataset,
         and so that they know the content in view has been updated if they navigate to a new page number.
       </li>
-    </ul> 
+    </ul>
   </div>
 </div>
 
@@ -229,14 +229,14 @@ Pagination allows you to divide large amounts of content into smaller chunks acr
   <div class="w-2/3">
     <ul>
       <li>
-        Don’t use the Pagination component to help users navigate through linear multi-step 
-        content like paged forms. In these cases, use a Progress Stepper (coming soon) or something 
+        Don’t use the Pagination component to help users navigate through linear multi-step
+        content like paged forms. In these cases, use a Progress Stepper (coming soon) or something
         that can communicate more about a user’s status through a flow than the Pagination component allows.
       </li>
       <li>
-        Don’t over-complicate Pagination labels with too much information about the content in view. 
+        Don’t over-complicate Pagination labels with too much information about the content in view.
         If you can’t give succinct labels to Pagination, consider showing the information elsewhere on the page.
       </li>
-    </ul> 
+    </ul>
   </div>
 </div>

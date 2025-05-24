@@ -16,8 +16,8 @@ description: Dropdown style guide
   import pDivider from '../../components/divider/Divider.vue'
   import pRadio from '../../components/radio/Radio.vue'
   import IconNext from '@privyid/persona-icon/vue/chevron-right/20.vue'
-  import { ref } from 'vue-demi'
-  
+  import { ref } from 'vue'
+
   const model = ref(true)
   const selected = ref('orange')
 </script>
@@ -323,23 +323,23 @@ Note: All types can be combined as needed, except the checkbox and icon used to 
   <div class="w-2/3">
     <ul>
       <li>
-        A number of components can be used to give people the ability to select options. 
+        A number of components can be used to give people the ability to select options.
         See the list of related components below for advice on choosing the right one.
       </li>
       <li>
-        When organizing dropdown menu items, sort the list in a logical order by putting 
-        the most selected option at the top, if known. Test and refine over time to 
+        When organizing dropdown menu items, sort the list in a logical order by putting
+        the most selected option at the top, if known. Test and refine over time to
         re-evaluate if all menu items are needed.
       </li>
       <li>
-        For long lists, group related menu items. If including radio buttons and checkboxes 
+        For long lists, group related menu items. If including radio buttons and checkboxes
         as menu items, try grouping related actions.
       </li>
       <li>
-        Grouped items are separated by a short, uppercase title that describes the options 
+        Grouped items are separated by a short, uppercase title that describes the options
         in that sub-category.
       </li>
-    </ul> 
+    </ul>
   </div>
 </div>
 
@@ -349,18 +349,18 @@ Note: All types can be combined as needed, except the checkbox and icon used to 
   <div class="w-2/3">
     <ul>
       <li>
-        Dropdown menus are typically used when you have 5-15 items to choose from. 
-        They’re used for navigation or commands, where an action is initiated 
+        Dropdown menus are typically used when you have 5-15 items to choose from.
+        They’re used for navigation or commands, where an action is initiated
         based on the selection.
       </li>
       <li>
-        When organizing dropdown menu items, sort the list in a logical order 
+        When organizing dropdown menu items, sort the list in a logical order
         by putting the most selected option at the top.
       </li>
       <li>Use for a “more” menu, where the control contains an icon.</li>
       <li>Use for user profiles, where the control is an avatar.</li>
       <li>Use in conjunction with the dropdown item and dropdown group components.</li>
-    </ul> 
+    </ul>
   </div>
 </div>
 
@@ -372,10 +372,10 @@ Note: All types can be combined as needed, except the checkbox and icon used to 
       <li>Don’t use for hiding primary actions since they should be visible by default.</li>
       <li>Don’t use for selecting an option from a list of options, use the select component instead.</li>
       <li>
-        Don’t nest elements or components other than the dropdown item and dropdown group components. 
+        Don’t nest elements or components other than the dropdown item and dropdown group components.
         Consider using the popout component when creating custom UI.
       </li>
-    </ul> 
+    </ul>
   </div>
 </div>
 

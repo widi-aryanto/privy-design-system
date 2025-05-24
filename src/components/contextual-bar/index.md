@@ -6,7 +6,7 @@ description: App-level notification bar.
 <script setup>
 import pContextualBar from './ContextualBar.vue'
 import pButton from '../button/Button.vue'
-import { ref, onMounted } from "vue-demi"
+import { ref, onMounted } from 'vue'
 import IconInfo from '@privyid/persona-icon/vue/information-circle-solid/20.vue'
 
 const sample1 = ref(false)

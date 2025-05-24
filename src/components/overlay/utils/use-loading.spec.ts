@@ -1,5 +1,5 @@
 import { vi } from 'vitest'
-import { nextTick } from 'vue-demi'
+import { nextTick } from 'vue'
 import useLoading from './use-loading'
 import { delay } from 'nanodelay'
 

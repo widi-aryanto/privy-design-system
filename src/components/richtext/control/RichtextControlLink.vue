@@ -25,7 +25,7 @@
 import pDropdown from '../../dropdown/Dropdown.vue'
 import IconLink from '@privyid/persona-icon/vue/link/20.vue'
 import { useRichtextEditor } from '..'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import LinkEdit from '../popup/RichtextPopupLinkEdit.vue'
 import { withHttps } from 'ufo'
 

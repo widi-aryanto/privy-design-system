@@ -17,8 +17,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { PropType } from 'vue'
+import { computed } from 'vue'
 import type { RouteLocationRaw } from 'vue-router'
 
 const props = defineProps({

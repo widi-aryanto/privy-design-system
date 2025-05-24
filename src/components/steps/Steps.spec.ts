@@ -3,7 +3,7 @@ import Steps from './Steps.vue'
 import Step from './Step.vue'
 import { delay } from 'nanodelay'
 import { vi } from 'vitest'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 
 it('should render properly', () => {
   const screen = render({

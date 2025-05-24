@@ -1,4 +1,4 @@
-import type { HTMLAttributes } from 'vue-demi'
+import type { HTMLAttributes } from 'vue'
 
 export interface AdditionalAttr extends HTMLAttributes {
   [key: string]: unknown,

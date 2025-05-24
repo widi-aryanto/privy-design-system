@@ -7,7 +7,7 @@ description: Base input toggle.
   import pToggle from "./Toggle.vue"
   import IconLight from '@privyid/persona-icon/vue/sun/16.vue'
   import IconDark from '@privyid/persona-icon/vue/moon/16.vue'
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
   import { useDark } from '@vueuse/core'
 
   const modelA   = ref(false)

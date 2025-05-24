@@ -24,7 +24,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import Dropdown from '../dropdown/Dropdown.vue'
 import type { Placement } from '@floating-ui/core'
 import type {

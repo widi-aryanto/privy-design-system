@@ -4,7 +4,7 @@ description: Off-Canvas container.
 ---
 
 <script setup>
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
   import pButton from "../button/Button.vue"
   import pSheet from "./Sheet.vue"
   import { vPAspectRatio } from '../aspect-ratio'

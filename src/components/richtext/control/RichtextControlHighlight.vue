@@ -48,7 +48,7 @@ import IconHighlight from '@privyid/persona-icon/vue/highlight/20.vue'
 import IconDelete from '@privyid/persona-icon/vue/close/16.vue'
 import { useRichtextEditor } from '..'
 import type { SelectItem } from '../../select'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 
 const editor = useRichtextEditor()
 const isShow = ref(false)

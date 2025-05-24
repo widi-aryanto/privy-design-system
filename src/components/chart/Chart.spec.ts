@@ -1,7 +1,7 @@
 import { createChart, updateChart } from './__mocks__/use-chart'
 import { render } from '@testing-library/vue'
 import { vi } from 'vitest'
-import { computed, ref } from 'vue-demi'
+import { computed, ref } from 'vue'
 import { delay } from 'nanodelay'
 import pChart from './Chart.vue'
 import pChartSet from './ChartSet.vue'

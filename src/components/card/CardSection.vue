@@ -42,8 +42,8 @@
 
 <script lang="ts" setup>
 import Subheading from '../subheading/Subheading.vue'
-import type { VNode } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { VNode } from 'vue'
+import { computed } from 'vue'
 
 const props = defineProps({
   title: {

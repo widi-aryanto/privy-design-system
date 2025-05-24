@@ -22,12 +22,12 @@ import {
   onMounted,
   watch,
   computed,
-} from 'vue-demi'
+} from 'vue'
 import { watchDebounced } from '@vueuse/core'
 import type {
   PropType,
   Ref,
-} from 'vue-demi'
+} from 'vue'
 import { useTime } from './index'
 import { useVModel } from '../input'
 import type { Options } from '@splidejs/splide'

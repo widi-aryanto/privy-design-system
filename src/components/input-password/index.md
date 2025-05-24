@@ -5,7 +5,7 @@ description: Base password-input form.
 
 <script setup>
   import pInputPassword from "./InputPassword.vue"
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
 
   const result = ref()
 </script>

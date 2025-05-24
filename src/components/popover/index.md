@@ -10,7 +10,7 @@ import Banner from '../banner/Banner.vue'
 import pCheckbox from '../checkbox/Checkbox.vue'
 import { usePopoverPromise } from '.'
 import * as dialog from '../dialog/index'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 
 const popoverPromise = usePopoverPromise()
 const show           = ref(false)

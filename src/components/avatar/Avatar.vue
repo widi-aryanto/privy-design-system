@@ -15,13 +15,13 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   onMounted,
   ref,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import {
   createAlias,
   createSpinner,

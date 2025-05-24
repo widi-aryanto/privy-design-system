@@ -1,11 +1,11 @@
 import type {
   InjectionKey,
   Ref,
-} from 'vue-demi'
+} from 'vue'
 import {
   inject,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import { noop } from 'lodash-es'
 
 export type LayoutVariant = 'fixed' | 'fit'

@@ -1,6 +1,6 @@
 import { fireEvent, render } from '@testing-library/vue'
 import { delay } from 'nanodelay'
-import { ref, nextTick } from 'vue-demi'
+import { ref, nextTick } from 'vue'
 import Nav from './Nav.vue'
 import NavItemDropdown from './NavItemDropdown.vue'
 

@@ -11,7 +11,7 @@ description: Combine multiple input in singleline.
   import pDivider from '../divider/Divider.vue'
   import pSelect from '../select/Select.vue'
   import IconEmail from '@privyid/persona-icon/vue/address/20.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const select = ref()
 </script>

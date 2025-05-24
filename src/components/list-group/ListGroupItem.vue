@@ -11,8 +11,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
-import { computed, resolveComponent } from 'vue-demi'
+import type { PropType } from 'vue'
+import { computed, resolveComponent } from 'vue'
 import type { ElementVariant } from '.'
 
 const props = defineProps({

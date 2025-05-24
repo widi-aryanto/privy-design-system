@@ -4,9 +4,9 @@ import pQrcode from './Qrcode.vue'
 import { delay } from 'nanodelay'
 import { vi } from 'vitest'
 import QRCodeStyling from 'qr-code-styling'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import type * as VueUse from '@vueuse/core'
-import type * as VueDemi from 'vue-demi'
+import type * as VueDemi from 'vue'
 
 const qrRender = vi.spyOn(QRCodeStyling.prototype, 'update')
 
@@ -14,7 +14,7 @@ vi.mock('../signature-draw/utils/canvas.ts', () => canvas)
 
 vi.mock('@vueuse/core', async () => {
   const vueuse  = await vi.importActual('@vueuse/core')
-  const vueDemi = await vi.importActual('vue-demi')
+  const vueDemi = await vi.importActual('vue')
 
   return {
     ...vueuse as typeof VueUse,

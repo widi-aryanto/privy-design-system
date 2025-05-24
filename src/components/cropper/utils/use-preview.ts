@@ -1,11 +1,11 @@
 import { createSpinner } from '../../avatar/utils/create-image'
 import type { MaybeRef } from '@vueuse/core'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   ref,
   unref,
   watchEffect,
-} from 'vue-demi'
+} from 'vue'
 
 export function usePreview (file: MaybeRef<string | globalThis.File>, fallback = createSpinner(512, 512)): Ref<string> {
   const preview = ref(fallback)

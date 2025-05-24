@@ -1,4 +1,4 @@
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 
 export const height = ref(0)
 

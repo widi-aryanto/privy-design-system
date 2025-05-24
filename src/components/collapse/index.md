@@ -4,7 +4,7 @@ description: Show and hide content.
 ---
 
 <script setup>
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import pCollapse from './Collapse.vue'
   import pButton from './../button/Button.vue'
   import pCard from './../card/Card.vue'

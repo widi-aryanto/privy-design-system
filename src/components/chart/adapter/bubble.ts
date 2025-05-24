@@ -1,5 +1,5 @@
 import type { ChartData } from 'chart.js/auto'
-import type { Slots, VNode } from 'vue-demi'
+import type { Slots, VNode } from 'vue'
 import { findAllChildren } from '../../utils/vnode'
 import { defineAdapter } from './adapter'
 import defu from 'defu'

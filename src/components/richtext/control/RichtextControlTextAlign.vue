@@ -46,8 +46,8 @@ import IconAlignCenter from '@privyid/persona-icon/vue/align-center/20.vue'
 import IconAlignRight from '@privyid/persona-icon/vue/align-right/20.vue'
 import IconAlignJustify from '@privyid/persona-icon/vue/align-justify/20.vue'
 import { useRichtextEditor } from '..'
-import type { Component } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { Component } from 'vue'
+import { computed } from 'vue'
 
 const alignment = [
   'left',

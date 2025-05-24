@@ -10,7 +10,7 @@ description: Headless Wizard.
   import pButton from '../button/Button.vue'
   import pInput from '../input/Input.vue'
   import pBanner from '../banner/Banner.vue'
-  import { reactive, ref } from 'vue-demi'
+  import { reactive, ref } from 'vue'
   import * as dialog from '../dialog'
 
   const step = ref(1)
@@ -417,7 +417,7 @@ This hook ran when `next` function was called, suit for form validation.
 </template>
 
 <script setup>
-  import { reactive } from 'vue-demi'
+  import { reactive } from 'vue'
   import { dialog } from '@privyid/persona/core/'
 
   const form = reactive({
@@ -539,7 +539,7 @@ This hook run when `next` function called in **last step**, and after `on-before
 </template>
 
 <script setup>
-  import { reactive } from 'vue-demi'
+  import { reactive } from 'vue'
   import { dialog } from '@privyid/persona/core/'
 
   const form = reactive({

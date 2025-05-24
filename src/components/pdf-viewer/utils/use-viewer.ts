@@ -1,11 +1,11 @@
 import 'pdfjs-dist/web/pdf_viewer.css'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   computed,
   onBeforeUnmount,
   shallowRef,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import {
   createEventBus,
   createLinkService,

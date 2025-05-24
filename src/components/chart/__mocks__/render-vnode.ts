@@ -1,4 +1,4 @@
-import type { VNode, FunctionalComponent } from 'vue-demi'
+import type { VNode, FunctionalComponent } from 'vue'
 import pChartVal from '../ChartVal.vue'
 import pChartSet from '../ChartSet.vue'
 import { render } from '@testing-library/vue'

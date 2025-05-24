@@ -10,7 +10,7 @@ description: Display content with collapse behavior
   import CaretUp from '@privyid/persona-icon/vue/caret-up/16.vue'
   import CaretDown from '@privyid/persona-icon/vue/caret-down/16.vue'
   import iconPrivy from '@privyid/persona-icon/vue/privy-alt/24.vue'
-  import { ref, markRaw } from 'vue-demi'
+  import { ref, markRaw } from 'vue'
   import { withBase } from 'vitepress'
 
   const items = defineAccordion([
@@ -441,7 +441,7 @@ Add props `no-caret` to hide caret icon. Add on `p-accordion` to hide globally, 
 
 <script setup lang="ts">
 import iconPrivy from '@privyid/persona-icon/vue/privy-alt/24.vue'
-import { markRaw } from 'vue-demi'
+import { markRaw } from 'vue'
 
 const icon = markRaw(iconPrivy)
 </script>

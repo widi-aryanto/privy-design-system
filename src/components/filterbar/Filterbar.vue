@@ -24,11 +24,11 @@
 </template>
 
 <script lang="ts">
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   defineComponent,
-} from 'vue-demi'
+} from 'vue'
 import type { FilterItem } from '.'
 import Dropdown from '../dropdown/Dropdown.vue'
 import Button from '../button/Button.vue'

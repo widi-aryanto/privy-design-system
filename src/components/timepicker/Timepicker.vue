@@ -69,10 +69,10 @@ import type { SizeVariant } from '../button'
 import { useVModel } from '../input'
 import type { TimeContext, TimeModel } from '../time'
 import { validateInterval } from '../time/utils'
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import {
   ref, computed, onMounted,
-} from 'vue-demi'
+} from 'vue'
 import { format, isDate } from 'date-fns'
 
 const props = defineProps({

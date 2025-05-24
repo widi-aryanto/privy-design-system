@@ -3,7 +3,7 @@ import {
   computed,
   getCurrentInstance,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import type { InputProps } from '../input'
 import { valueIn, isEqual } from '../utils/value'
 

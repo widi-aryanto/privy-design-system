@@ -52,7 +52,7 @@
 import DropdownItem from '../dropdown/DropdownItem.vue'
 import IconNext from '@privyid/persona-icon/vue/chevron-right/16.vue'
 import IconBack from '@privyid/persona-icon/vue/arrow-left/16.vue'
-import type { VNode } from 'vue-demi'
+import type { VNode } from 'vue'
 import {
   inject,
   provide,
@@ -60,7 +60,7 @@ import {
   shallowRef,
   computed,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import type { DropdownContext } from '.'
 import { DROPDOWN_TREE } from '.'
 

@@ -3,12 +3,12 @@ import {
   tryOnMounted,
   useMutationObserver,
 } from '@vueuse/core'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   watch,
   unref,
   shallowRef,
-} from 'vue-demi'
+} from 'vue'
 
 export function useSelector<E extends HTMLElement> (selector: MaybeRef<string>, container?: MaybeRef<HTMLElement>, all?: false): Readonly<Ref<E>>
 export function useSelector<E extends HTMLElement> (selector: MaybeRef<string>, container?: MaybeRef<HTMLElement>, all?: true): Readonly<Ref<NodeListOf<E>>>

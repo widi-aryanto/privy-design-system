@@ -6,7 +6,7 @@ description: Preview and crop image
 <script setup>
 import pButton from '../button/Button.vue'
 import pCropper from './Cropper.vue'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import { withBase } from 'vitepress'
 
 const SAMPLE_IMG = withBase('/assets/images/img-sample-crop.jpg')

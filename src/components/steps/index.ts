@@ -5,11 +5,11 @@ import type {
   ComputedRef,
   InjectionKey,
   Ref,
-} from 'vue-demi'
+} from 'vue'
 import {
   inject,
   ref,
-} from 'vue-demi'
+} from 'vue'
 
 export type TravelHook = (to: number, from: number) => boolean | Promise<boolean>
 

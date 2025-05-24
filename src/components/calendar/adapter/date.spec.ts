@@ -1,5 +1,5 @@
 import Adapter from './date'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import type { CalendarContext, CalendarItem } from './adapter'
 import { initStore, setLang } from '../../global/store'
 import {

@@ -24,12 +24,12 @@
 
 <script lang="ts" setup>
 import pInput from '../input/Input.vue'
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   toRef,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import {
   syncRef,
   useToNumber,

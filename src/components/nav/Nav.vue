@@ -27,8 +27,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { PropType } from 'vue'
+import { computed } from 'vue'
 import type { AlignVariant, StyleVariant } from '.'
 import Caption from '../caption/Caption.vue'
 import Text from '../text/Text.vue'

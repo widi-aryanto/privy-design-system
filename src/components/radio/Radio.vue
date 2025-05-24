@@ -46,8 +46,8 @@
 <script lang="ts" setup>
 import { useVModel } from '.'
 import IconCheck from '@privyid/persona-icon/vue/checkmark/20.vue'
-import type { PropType, VNode } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
+import { computed } from 'vue'
 
 type AppearanceType = 'radio' | 'checkbox' | 'option' | 'none'
 

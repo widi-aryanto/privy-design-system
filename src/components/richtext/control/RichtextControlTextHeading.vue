@@ -71,7 +71,7 @@ import pDropdownItem from '../../dropdown/DropdownItem.vue'
 import IconCaret from '@privyid/persona-icon/vue/caret-down/16.vue'
 import type { Level } from '@tiptap/extension-heading'
 import { useRichtextEditor } from '..'
-import { computed } from 'vue-demi'
+import { computed } from 'vue'
 
 const editor = useRichtextEditor()
 

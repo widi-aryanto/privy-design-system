@@ -74,7 +74,7 @@
 </template>
 
 <script lang="ts" setup>
-import { computed } from 'vue-demi'
+import { computed } from 'vue'
 import { usePdfContext } from '.'
 import IconZoomIn from '@privyid/persona-icon/vue/zoom-in/20.vue'
 import IconZoomOut from '@privyid/persona-icon/vue/zoom-out/20.vue'

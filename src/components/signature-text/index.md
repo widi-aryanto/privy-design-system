@@ -6,7 +6,7 @@ description: Generate text to signature image
 <script setup>
   import pInput from '../input/Input.vue'
   import pSignatureText from './SignatureText.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const result    = ref()
   const resultB64 = ref()

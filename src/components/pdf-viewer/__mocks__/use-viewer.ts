@@ -1,7 +1,7 @@
 import type * as PDFJS from 'pdfjs-dist'
 import { vi } from 'vitest'
 import { createEventHook } from '@vueuse/core'
-import { reactive, toRefs } from 'vue-demi'
+import { reactive, toRefs } from 'vue'
 
 export const loadEvent = createEventHook<PDFJS.PDFDocumentProxy>()
 

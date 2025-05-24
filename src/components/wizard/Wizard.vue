@@ -24,7 +24,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import WizardHeader from './WizardHeader.vue'
 import WizardBody from './WizardBody.vue'
 import type { TravelHook, FinishedHook } from '../steps'

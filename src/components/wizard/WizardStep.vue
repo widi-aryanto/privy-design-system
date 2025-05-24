@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import type { TravelHook } from '../steps'
 
 defineOptions({ name: 'WizardStep' })

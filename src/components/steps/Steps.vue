@@ -12,12 +12,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import {
   computed,
   provide,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import StepSlider from './StepSlider.vue'
 import { useVModel } from '../input'
 import { findAllChildren } from '../utils/vnode'

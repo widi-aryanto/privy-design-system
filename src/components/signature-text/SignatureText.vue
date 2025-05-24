@@ -9,12 +9,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   ref,
   computed,
   onMounted,
-} from 'vue-demi'
+} from 'vue'
 import { useVModel } from '../input'
 import { createSpinner } from '../avatar/utils/create-image'
 import { formatName } from './utils/formatter'

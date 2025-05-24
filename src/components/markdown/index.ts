@@ -1,4 +1,4 @@
-import type { Directive } from 'vue-demi'
+import type { Directive } from 'vue'
 import type { MarkedOptions } from 'marked'
 import { parse, parseInline } from 'marked'
 import { sanitize } from '@jill64/universal-sanitizer'

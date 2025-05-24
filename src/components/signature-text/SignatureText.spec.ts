@@ -2,14 +2,14 @@ import { vi } from 'vitest'
 import { render } from '@testing-library/vue'
 import generate from './__mocks__/generate-text'
 import SignatureText from './SignatureText.vue'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import { delay } from 'nanodelay'
 import type * as VueUse from '@vueuse/core'
-import type * as VueDemi from 'vue-demi'
+import type * as VueDemi from 'vue'
 
 vi.mock('@vueuse/core', async () => {
   const vueuse  = await vi.importActual('@vueuse/core')
-  const vueDemi = await vi.importActual('vue-demi')
+  const vueDemi = await vi.importActual('vue')
 
   return {
     ...vueuse as typeof VueUse,

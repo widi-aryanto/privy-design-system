@@ -17,7 +17,7 @@ description: Base dropdown button, suit for action menus
   import pCaption from '../caption/Caption.vue'
   import pTruncate from '../truncate/Truncate.vue'
   import pText from '../text/Text.vue'
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
 
   const show     = ref(false)
   const selected = ref('')

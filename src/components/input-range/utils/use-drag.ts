@@ -1,11 +1,11 @@
 import type { InteractEvent, Interactable } from '@interactjs/types'
 import { throttle } from 'lodash-es'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   onBeforeUnmount,
   shallowRef,
   watch,
-} from 'vue-demi'
+} from 'vue'
 
 export default function useDrag (target: Ref<HTMLElement>, handler: (event: InteractEvent) => void) {
   const instance = shallowRef<Interactable>()

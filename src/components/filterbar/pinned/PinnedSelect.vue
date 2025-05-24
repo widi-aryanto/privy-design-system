@@ -31,12 +31,12 @@
 </template>
 
 <script lang="ts">
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   defineComponent,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import Dropdown from '../../dropdown/Dropdown.vue'
 import DropdownItem from '../../dropdown/DropdownItem.vue'
 import DropdownHeader from '../../dropdown/DropdownHeader.vue'

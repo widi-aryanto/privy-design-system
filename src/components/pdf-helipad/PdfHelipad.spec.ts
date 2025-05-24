@@ -9,7 +9,7 @@ import useDrag, {
 import PdfHelipad from './PdfHelipad.vue'
 import PdfObject from '../pdf-object/PdfObject.vue'
 import PdfObjects from '../pdf-object/PdfObjects.vue'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 
 vi.mock('./utils/use-drag.ts', () => ({ default: useDrag }))
 

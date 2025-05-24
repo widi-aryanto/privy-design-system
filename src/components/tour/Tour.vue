@@ -20,7 +20,7 @@ import {
   shallowRef,
   watchEffect,
   onBeforeUnmount,
-} from 'vue-demi'
+} from 'vue'
 import TourDialog from './TourDialog.vue'
 import TourHighlight from './TourHighlight.vue'
 import {

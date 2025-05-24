@@ -48,11 +48,11 @@
 </template>
 
 <script lang="ts" setup>
-import type { Component, PropType } from 'vue-demi'
+import type { Component, PropType } from 'vue'
 import {
   computed,
   h,
-} from 'vue-demi'
+} from 'vue'
 import type {
   PopupActionOption,
   PopupStyleVariant,

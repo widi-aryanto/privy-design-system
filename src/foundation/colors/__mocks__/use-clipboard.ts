@@ -1,5 +1,5 @@
 import { vi } from 'vitest'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 
 export const copy = vi.fn()
 

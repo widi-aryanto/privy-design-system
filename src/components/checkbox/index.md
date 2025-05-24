@@ -9,7 +9,7 @@ description: Base checkbox form
   import pCaption from "../caption/Caption.vue"
   import pCard from "../card/Card.vue"
   import IconBee from '@privyid/persona-icon/vue/persona/20.vue'
-  import { ref, computed } from "vue-demi"
+  import { ref, computed } from 'vue'
 
   const value    = ref(false)
   const value2   = ref(false)

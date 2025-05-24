@@ -10,7 +10,7 @@ description: Slideshow for cycling through a series of content.
   import pCaption from '../caption/Caption.vue'
   import pBanner from '../banner/Banner.vue'
   import IconRight from '@privyid/persona-icon/vue/chevron-right/20.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const active = ref(1)
 </script>

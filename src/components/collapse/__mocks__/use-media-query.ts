@@ -1,6 +1,6 @@
 import {
   computed, nextTick, ref,
-} from 'vue-demi'
+} from 'vue'
 
 const screenWidth = ref(0)
 

@@ -8,7 +8,7 @@ description: Collections of colors library
   import pCaption from '../../components/caption/Caption.vue'
   import pHeading from '../../components/heading/Heading.vue'
   import pText from '../../components/text/Text.vue'
-  import { ref, computed } from "vue-demi"
+  import { ref, computed } from 'vue'
   import items from './Colors.json'
 </script>
 
@@ -68,7 +68,7 @@ Mostly used on logo and button cta
 </div>
 
 ### Foregrounds
-Mostly used on text and icons. 
+Mostly used on text and icons.
 
 This semantic can be written to the tailwind class with the format: `text-{semantic-foreground-name}`. Example: `text-default`. And for the dark-mode version can be written as: `text-dark-{semantic-foreground-name}`. Example `text-dark-default`.
 

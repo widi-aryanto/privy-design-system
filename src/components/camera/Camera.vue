@@ -121,14 +121,14 @@ import type {
   ComputedRef,
   PropType,
   VNode,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   onBeforeUnmount,
   onMounted,
   ref,
   toRef,
-} from 'vue-demi'
+} from 'vue'
 import pButton from '../button/Button.vue'
 import IconRotate from '@privyid/persona-icon/vue/refresh/16.vue'
 import IconCamera from '@privyid/persona-icon/vue/camera/24.vue'

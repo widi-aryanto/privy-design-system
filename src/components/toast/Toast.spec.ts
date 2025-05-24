@@ -2,7 +2,7 @@ import { render, fireEvent } from '@testing-library/vue'
 import { vi } from 'vitest'
 import Toast from './Toast.vue'
 import IconSuccess from '@privyid/persona-icon/vue/checkmark/24.vue'
-import { markRaw } from 'vue-demi'
+import { markRaw } from 'vue'
 
 beforeEach(() => {
   vi.useFakeTimers()

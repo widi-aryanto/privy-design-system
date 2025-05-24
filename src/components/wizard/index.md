@@ -9,7 +9,7 @@ description: Fancy form wizard.
   import pButton from '../button/Button.vue'
   import pInput from '../input/Input.vue'
   import IconDocument from '@privyid/persona-icon/vue/document-filled/20.vue'
-  import { reactive } from 'vue-demi'
+  import { reactive } from 'vue'
   import { dialog } from '../../core/'
 
   const form = reactive({
@@ -296,7 +296,7 @@ All hooks from [Steps](/components/steps/) like `on-before-next`, `on-before-pre
 </template>
 
 <script setup>
-  import { reactive } from 'vue-demi'
+  import { reactive } from 'vue'
   import { dialog } from '@privyid/persona/core/'
 
   const form = reactive({

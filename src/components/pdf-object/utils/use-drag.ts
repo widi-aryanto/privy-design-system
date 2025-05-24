@@ -1,11 +1,11 @@
 import type { InteractEvent, Interactable } from '@interactjs/types'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   inject,
   onScopeDispose,
   shallowRef,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import { DROPZONE_CONTEXT_SYMBOL } from './use-drop'
 
 export interface DragHooks {

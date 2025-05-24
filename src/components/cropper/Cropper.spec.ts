@@ -11,7 +11,7 @@ import img from './assets/sample-1.jpg'
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { delay } from 'nanodelay'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import { createSpinner } from '../avatar/utils/create-image'
 import type * as VueUse from '@vueuse/core'
 

@@ -1,11 +1,11 @@
 import defu from 'defu'
 import { vi } from 'vitest'
 import type { Adapter, AdapterMeta } from '../adapter/adapter'
-import type { ComputedRef } from 'vue-demi'
+import type { ComputedRef } from 'vue'
 import {
   computed,
   ref,
-} from 'vue-demi'
+} from 'vue'
 
 export const video = document.createElement('video')
 

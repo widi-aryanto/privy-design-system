@@ -4,7 +4,7 @@ description: Add filter to your datatable easy-way.
 ---
 
 <script setup>
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import pFilterbar from './Filterbar.vue'
   import { defineFilter } from '.'
 

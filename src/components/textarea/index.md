@@ -5,7 +5,7 @@ description: Base textarea form input.
 
 <script setup>
   import pTextarea from './Textarea.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const result = ref()
 </script>

@@ -23,12 +23,12 @@
 import type {
   PropType,
   Ref,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   shallowRef,
   triggerRef,
-} from 'vue-demi'
+} from 'vue'
 import type {
   NotifyInstance,
   NotifyOption,

@@ -17,7 +17,7 @@
 import {
   reactive,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import Tooltip from './Tooltip.vue'
 import type { TooltipItem, TooltipOptions } from '.'
 import { uniqueId } from 'lodash-es'

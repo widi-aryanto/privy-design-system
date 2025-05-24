@@ -26,8 +26,8 @@
 
 <script lang="ts" setup>
 import Button from '../button/Button.vue'
-import type { PropType } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { PropType } from 'vue'
+import { computed } from 'vue'
 import type {
   StyleVariant as FooterButtonStyleVariant,
   ColorVariant as FooterButtonColorVariant,

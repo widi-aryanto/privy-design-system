@@ -19,13 +19,13 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   inject,
   h,
   resolveComponent,
-} from 'vue-demi'
+} from 'vue'
 import IconChevron from '@privyid/persona-icon/vue/chevron-right/20.vue'
 import type { RouteLocationRaw } from 'vue-router'
 

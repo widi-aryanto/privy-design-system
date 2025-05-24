@@ -10,7 +10,7 @@ description: Headless component for Drag'n'Drop Files Upload.
   import pSpread from '../spread/Spread.vue'
   import IconFile from '@privyid/persona-icon/vue/document-filled/32.vue'
   import IconImage from '@privyid/persona-icon/vue/image/32.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const result  = ref()
   const result2 = ref()

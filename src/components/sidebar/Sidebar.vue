@@ -28,12 +28,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import {
   computed,
   provide,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import type { TypeVariant } from '.'
 import { SIDEBAR_SETTINGS } from '.'
 import { useVModel } from '../input'

@@ -13,7 +13,7 @@ import type * as VueUse from '@vueuse/core'
 import { defineAdapter } from './adapter/adapter'
 import { delay } from 'nanodelay'
 import { until } from '@vueuse/core'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import Camera from './Camera.vue'
 
 vi.mock('./utils/take-picture.ts', () => {

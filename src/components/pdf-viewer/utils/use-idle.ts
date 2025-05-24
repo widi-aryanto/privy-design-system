@@ -2,7 +2,7 @@ import type { MaybeRef } from '@vueuse/core'
 import {
   useEventListener,
 } from '@vueuse/core'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 
 const TRACK_EVENTS = [
   'mousemove',

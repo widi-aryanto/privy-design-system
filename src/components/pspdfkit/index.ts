@@ -3,7 +3,7 @@ import {
   inject,
   type InjectionKey,
   type Ref,
-} from 'vue-demi'
+} from 'vue'
 
 export interface PSPDFContext {
   instance: Ref<Instance>,

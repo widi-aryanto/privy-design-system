@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/vue'
-import { nextTick } from 'vue-demi'
+import { nextTick } from 'vue'
 import Overlay from './Overlay.vue'
 
 it('should able to display overlay', async () => {

@@ -27,13 +27,13 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   nextTick,
   ref,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import { useVModel } from '../input'
 import type { AddonPositionVariant } from '../pdf-object'
 import type { SizeVariant } from '../modal'

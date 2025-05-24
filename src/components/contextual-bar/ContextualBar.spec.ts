@@ -4,7 +4,7 @@ import { delay } from 'nanodelay'
 import {
   ref,
   nextTick,
-} from 'vue-demi'
+} from 'vue'
 import pContextualBar from './ContextualBar.vue'
 import pButton from '../button/Button.vue'
 import IconInfo from '@privyid/persona-icon/vue/information-circle-solid/20.vue'

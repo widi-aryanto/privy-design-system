@@ -7,12 +7,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   provide,
   toRef,
-} from 'vue-demi'
+} from 'vue'
 import { BUTTONGROUP_SETTING } from '.'
 import type { SizeVariant } from '../button'
 

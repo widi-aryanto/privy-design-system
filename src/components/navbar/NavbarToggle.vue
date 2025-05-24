@@ -18,7 +18,7 @@ import {
   inject,
   ref,
   computed,
-} from 'vue-demi'
+} from 'vue'
 import Button from '../button/Button.vue'
 import IconMenu from '@privyid/persona-icon/vue/menu-burger/20.vue'
 import IconClose from '@privyid/persona-icon/vue/close/20.vue'

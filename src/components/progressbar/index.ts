@@ -1,4 +1,4 @@
-import { toRef, computed } from 'vue-demi'
+import { toRef, computed } from 'vue'
 import { useToNumber } from '@vueuse/core'
 
 interface ProgressbarProp {

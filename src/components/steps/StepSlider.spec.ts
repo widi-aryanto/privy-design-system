@@ -3,12 +3,12 @@ import { render } from '@testing-library/vue'
 import { vi } from 'vitest'
 import Step from './Step.vue'
 import StepSlider from './StepSlider.vue'
-import type * as VueDemi from 'vue-demi'
+import type * as VueDemi from 'vue'
 
 vi.spyOn(console, 'warn').mockReturnThis()
 
-vi.mock('vue-demi', async () => {
-  const vueDemi = await vi.importActual('vue-demi')
+vi.mock('vue', async () => {
+  const vueDemi = await vi.importActual('vue')
 
   return {
     ...vueDemi as typeof VueDemi,

@@ -1,5 +1,5 @@
 import { round } from 'lodash-es'
-import { nextTick, reactive } from 'vue-demi'
+import { nextTick, reactive } from 'vue'
 import type { PdfObjectSize } from '.'
 import { useSizeModel } from '.'
 

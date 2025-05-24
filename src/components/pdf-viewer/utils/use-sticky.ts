@@ -3,13 +3,13 @@ import {
   useElementBounding,
   useWindowSize,
 } from '@vueuse/core'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   computed,
   ref,
   unref,
   watchEffect,
-} from 'vue-demi'
+} from 'vue'
 
 export interface StickyOptions {
   offsetTop: MaybeRef<number>,

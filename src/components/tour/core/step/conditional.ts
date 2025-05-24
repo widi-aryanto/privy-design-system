@@ -1,5 +1,5 @@
 import type { MaybeRef } from '@vueuse/shared'
-import { unref } from 'vue-demi'
+import { unref } from 'vue'
 import { AbstractStep } from '../step'
 import type { Tour } from '../tour'
 

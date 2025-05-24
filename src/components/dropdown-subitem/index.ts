@@ -2,7 +2,7 @@ import type {
   InjectionKey,
   ShallowRef,
   Slots,
-} from 'vue-demi'
+} from 'vue'
 
 export interface DropdownNode {
   _level: number, // Just id to trigger transition

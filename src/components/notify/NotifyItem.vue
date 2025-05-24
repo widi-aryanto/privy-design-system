@@ -5,8 +5,8 @@
 </template>
 
 <script setup lang="ts">
-import type { PropType } from 'vue-demi'
-import { provide, watchEffect } from 'vue-demi'
+import type { PropType } from 'vue'
+import { provide, watchEffect } from 'vue'
 import { NOTIFY_CONTEXT, type NotifyOption } from '.'
 
 const props = defineProps({

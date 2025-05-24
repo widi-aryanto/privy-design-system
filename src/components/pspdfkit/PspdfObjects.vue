@@ -11,7 +11,7 @@
 import {
   ref,
   provide,
-} from 'vue-demi'
+} from 'vue'
 import { PDF_OBJECTS_CONTEXT } from '../pdf-object/'
 import { usePdfContext } from '../pdf-viewer'
 import useDrop from './utils/use-drop'

@@ -29,8 +29,8 @@ import type {
   AnchorHTMLAttributes,
   PropType,
   VNode,
-} from 'vue-demi'
-import { computed } from 'vue-demi'
+} from 'vue'
+import { computed } from 'vue'
 import type { RouteLocationRaw } from 'vue-router'
 
 const props = defineProps({

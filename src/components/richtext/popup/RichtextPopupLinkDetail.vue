@@ -46,7 +46,7 @@ import {
   computed,
   watch,
   nextTick,
-} from 'vue-demi'
+} from 'vue'
 import { withHttps } from 'ufo'
 import { useRichtextEditor } from '..'
 

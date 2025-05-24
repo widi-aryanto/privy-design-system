@@ -5,7 +5,7 @@ description: Define sidebar using JSON
 
 <script setup>
   import pSidebarMenu from './SidebarMenu.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import pSidebarBrand from '../sidebar/SidebarBrand.vue'
   import { defineMenu } from '.'
   import IconDashboard from '@privyid/persona-icon/vue/dashboard/20.vue'

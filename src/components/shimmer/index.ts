@@ -1,4 +1,4 @@
-import type { Directive } from 'vue-demi'
+import type { Directive } from 'vue'
 
 export const vBindOnce: Directive = {
   created (el, binding) {

@@ -14,14 +14,14 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   toRef,
   watch,
   computed,
   watchEffect,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import type { ColorVariant } from '.'
 import type { Placement } from '@floating-ui/dom'
 import {

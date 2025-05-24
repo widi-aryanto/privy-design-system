@@ -12,7 +12,7 @@ description: Sub-component of Dropdown for nesting dropdown item.
   import pDropdownSubitem from "./DropdownSubitem.vue"
   import Banner from '../banner/Banner.vue'
   import Checkbox from '../checkbox/Checkbox.vue'
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
 
   const show = ref(false)
 </script>

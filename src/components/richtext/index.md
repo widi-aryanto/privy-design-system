@@ -5,7 +5,7 @@ description: Feature-rich WYSWYG text editor
 
 <script setup>
   import pRichtext from './Richtext.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const result = ref()
 </script>

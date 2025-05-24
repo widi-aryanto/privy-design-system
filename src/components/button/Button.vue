@@ -19,12 +19,12 @@
 import type {
   PropType,
   VNode,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   inject,
   resolveComponent,
-} from 'vue-demi'
+} from 'vue'
 import type { RouteLocationRaw } from 'vue-router'
 import type {
   ColorVariant,

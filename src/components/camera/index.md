@@ -8,7 +8,7 @@ description: Take picture from user's camera
   import pBanner from '../banner/Banner.vue'
   import LivenessAdapter from './adapter/liveness'
   import QrCodeAdapter from './adapter/qr-code'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const result    = ref()
   const resultB64 = ref()

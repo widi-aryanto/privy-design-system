@@ -5,7 +5,7 @@ description: Range input slider.
 
 <script setup>
   import pInputRange from './InputRange.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const result  = ref(50)
   const result2 = ref([30, 70])

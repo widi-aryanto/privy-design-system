@@ -1,6 +1,6 @@
 import defu from 'defu'
 import { tryOnMounted } from '@vueuse/shared'
-import { computed, ref } from 'vue-demi'
+import { computed, ref } from 'vue'
 
 export interface LoadingOptions {
   elapsed: number | boolean,

@@ -1,7 +1,7 @@
 import { render, fireEvent } from '@testing-library/vue'
 import { delay } from 'nanodelay'
 import { vi } from 'vitest'
-import { ref, nextTick } from 'vue-demi'
+import { ref, nextTick } from 'vue'
 import Modal from './Modal.vue'
 import Button from '../button/Button.vue'
 

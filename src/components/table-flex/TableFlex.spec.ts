@@ -1,7 +1,7 @@
 import Draggable from '../table/__mocks__/vuedraggable'
 import { vi } from 'vitest'
 import { fireEvent, render } from '@testing-library/vue'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import { defineTable } from '../table'
 import Table from './TableFlex.vue'
 

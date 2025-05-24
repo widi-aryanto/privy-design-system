@@ -1,8 +1,8 @@
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   nextTick,
   watch,
-} from 'vue-demi'
+} from 'vue'
 
 type Handler = (event: { pageX: number }) => void
 

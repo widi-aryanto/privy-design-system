@@ -15,7 +15,7 @@ layout: false
   import IconClose from '@privyid/persona-icon/vue/close/16.vue'
   import IconEdit from '@privyid/persona-icon/vue/edit/16.vue'
   import { usePreview } from '../cropper/utils/use-preview'
-  import { reactive, ref } from 'vue-demi'
+  import { reactive, ref } from 'vue'
   import { withBase } from 'vitepress'
   import { watchDebounced } from '@vueuse/core'
 

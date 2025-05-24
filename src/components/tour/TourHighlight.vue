@@ -8,12 +8,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   ref,
   toRef,
   watchEffect,
-} from 'vue-demi'
+} from 'vue'
 import { autoUpdate } from '@floating-ui/dom'
 
 defineOptions({ inheritAttrs: false })

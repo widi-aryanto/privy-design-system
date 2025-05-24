@@ -123,12 +123,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import {
   computed,
   nextTick,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import { onKeyStroke } from '@vueuse/core'
 import Heading from '../heading/Heading.vue'
 import Button from '../button/Button.vue'

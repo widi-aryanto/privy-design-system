@@ -35,11 +35,11 @@
 import type {
   PropType,
   VNode,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   inject,
-} from 'vue-demi'
+} from 'vue'
 import type { SizeVariant } from '../button'
 import { INPUTGROUP_SETTING } from '../input-group'
 

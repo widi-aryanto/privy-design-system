@@ -27,13 +27,13 @@
 </template>
 
 <script lang="ts" setup>
-import type { VNode } from 'vue-demi'
+import type { VNode } from 'vue'
 import {
   computed,
   inject,
   ref,
   onMounted,
-} from 'vue-demi'
+} from 'vue'
 import { SIDEBAR_SETTINGS } from '../sidebar'
 import IconArrow from '@privyid/persona-icon/vue/chevron-down/16.vue'
 import Collapse from '../collapse/Collapse.vue'

@@ -1,6 +1,6 @@
 import { fireEvent, render } from '@testing-library/vue'
 import pProgressIndicator from './ProgressIndicator.vue'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 
 it('should mounted properly', () => {
   const screen = render({

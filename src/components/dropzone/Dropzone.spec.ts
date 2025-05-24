@@ -1,6 +1,6 @@
 import { fireEvent, render } from '@testing-library/vue'
 import { vi } from 'vitest'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import Dropzone from './Dropzone.vue'
 import { until } from '@vueuse/core'
 

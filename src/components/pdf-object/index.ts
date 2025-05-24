@@ -7,7 +7,7 @@ import {
 import type {
   InjectionKey,
   Ref,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   inject,
@@ -15,7 +15,7 @@ import {
   unref,
   ref,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import type { PdfViewerContext } from '../pdf-viewer'
 import { useSelector } from './utils/use-selector'
 import { focus as focus_ } from '../tour/utils/focus'

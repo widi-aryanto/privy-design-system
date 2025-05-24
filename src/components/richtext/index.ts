@@ -3,7 +3,7 @@ import {
   inject,
   type InjectionKey,
   type ShallowRef,
-} from 'vue-demi'
+} from 'vue'
 
 export const RICHTEXT_CONTEXT: InjectionKey<{ editor: ShallowRef<Editor> }> = Symbol('Richtext')
 

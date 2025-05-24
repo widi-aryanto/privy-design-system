@@ -6,7 +6,7 @@ description: Sub-component for Datepicker
 <script setup>
   import pCalendar from "./Calendar.vue"
   import Banner from "../banner/Banner.vue"
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
   import { format, startOfYear, endOfYear, endOfMonth } from 'date-fns'
 
   const value = ref()

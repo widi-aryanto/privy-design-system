@@ -6,7 +6,7 @@ description: Base button component
 <script setup>
   import pDatepicker from './Datepicker.vue'
   import Banner from '../banner/Banner.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import { startOfYear, endOfYear, endOfMonth } from 'date-fns'
 
   const value  = ref()
@@ -59,9 +59,9 @@ Datepicker has 4 variants size: `xs`, `sm`, `md`, `lg`, default is `md`.
 
 ## Placement
 
-You can customize the datepicker position using the `placement` prop. 
-This flexibility ensures that the datepicker fits seamlessly within your user interface. 
-The placement prop determines where the datepicker will appear in relation to the input field. 
+You can customize the datepicker position using the `placement` prop.
+This flexibility ensures that the datepicker fits seamlessly within your user interface.
+The placement prop determines where the datepicker will appear in relation to the input field.
 
 <preview>
   <p-datepicker placement="left" />

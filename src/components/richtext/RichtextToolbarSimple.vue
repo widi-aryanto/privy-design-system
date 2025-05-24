@@ -34,7 +34,7 @@ import IconAlignJustify from '@privyid/persona-icon/vue/align-justify/20.vue'
 import IconBulletList from '@privyid/persona-icon/vue/list-bullets/20.vue'
 import IconOrderedList from '@privyid/persona-icon/vue/list-numbers/20.vue'
 import { useRichtextEditor } from '.'
-import type { Component } from 'vue-demi'
+import type { Component } from 'vue'
 import type { Editor } from '@tiptap/vue-3'
 
 const editor = useRichtextEditor()

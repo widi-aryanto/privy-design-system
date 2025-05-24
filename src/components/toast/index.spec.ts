@@ -1,7 +1,7 @@
 import { queryByTestId, queryByText } from '@testing-library/vue'
 import showToast from '.'
 import { resetInstance } from '../global/use-singleton'
-import { nextTick } from 'vue-demi'
+import { nextTick } from 'vue'
 
 afterEach(async () => {
   await resetInstance()

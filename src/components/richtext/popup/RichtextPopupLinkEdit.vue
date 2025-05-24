@@ -40,7 +40,7 @@ import IconLink from '@privyid/persona-icon/vue/link/20.vue'
 import IconSubmit from '@privyid/persona-icon/vue/checkmark/20.vue'
 import IconClose from '@privyid/persona-icon/vue/close/20.vue'
 import { useVModel } from '../../input'
-import { onMounted, ref } from 'vue-demi'
+import { onMounted, ref } from 'vue'
 
 const props = defineProps({
   modelValue: {

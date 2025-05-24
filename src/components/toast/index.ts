@@ -1,10 +1,10 @@
 import {
   markRaw,
-} from 'vue-demi'
+} from 'vue'
 import type {
   HTMLAttributes,
   Component,
-} from 'vue-demi'
+} from 'vue'
 import type { NotifyInstance, NotifyOption } from '../notify'
 import type {
   ColorVariant,

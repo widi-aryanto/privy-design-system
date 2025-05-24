@@ -15,7 +15,7 @@ layout: false
   import IconClose from '@privyid/persona-icon/vue/close/16.vue'
   import IconEdit from '@privyid/persona-icon/vue/edit/16.vue'
   import { usePreview } from '../components/cropper/utils/use-preview'
-  import { reactive, ref } from 'vue-demi'
+  import { reactive, ref } from 'vue'
   import { withBase } from 'vitepress'
 
   const scale           = ref(1)

@@ -20,7 +20,7 @@
 import Collapse from '../collapse/Collapse.vue'
 import NavItem from '../nav/NavItem.vue'
 import IconMore from '@privyid/persona-icon/vue/chevron-down/20.vue'
-import { onMounted, ref } from 'vue-demi'
+import { onMounted, ref } from 'vue'
 
 defineProps({
   showMoreText: {

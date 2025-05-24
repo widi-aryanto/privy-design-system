@@ -103,7 +103,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import {
   computed,
   onMounted,
@@ -111,7 +111,7 @@ import {
   ref,
   toRef,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import { vPAspectRatio } from '../aspect-ratio'
 import {
   useToNumber,

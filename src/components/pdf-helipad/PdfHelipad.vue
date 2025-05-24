@@ -30,7 +30,7 @@ import {
   toRef,
   watch,
   watchEffect,
-} from 'vue-demi'
+} from 'vue'
 import { getPosition } from '../pdf-object/utils/position'
 import useDrag from './utils/use-drag'
 import type { PdfHelipadResult } from '.'

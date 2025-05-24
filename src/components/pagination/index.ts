@@ -1,4 +1,4 @@
-import { computed, toRef } from 'vue-demi'
+import { computed, toRef } from 'vue'
 import {
   getPageItems,
   getPageRange,

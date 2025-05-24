@@ -10,11 +10,11 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   resolveComponent,
-} from 'vue-demi'
+} from 'vue'
 import type { StyleVariant, ElementVariant } from '.'
 import type { WeightVariant, TransformVariant } from '../heading'
 import type { RouteLocationRaw } from 'vue-router'

@@ -33,8 +33,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { VNode } from 'vue-demi'
-import { provide } from 'vue-demi'
+import type { VNode } from 'vue'
+import { provide } from 'vue'
 import type { BreadcrumbItems } from '.'
 import BreadcrumbItem from './BreadcrumbItem.vue'
 import BreadcrumbItemDropdown from './BreadcrumbItemDropdown.vue'

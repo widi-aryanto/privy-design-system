@@ -1,12 +1,12 @@
 import type { Interactable, InteractEvent } from '@interactjs/types'
 import type { MaybeRef } from '@vueuse/core'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   onScopeDispose,
   shallowRef,
   unref,
   watch,
-} from 'vue-demi'
+} from 'vue'
 
 export interface ResizeOptions {
   onstart?: (event: InteractEvent) => void,

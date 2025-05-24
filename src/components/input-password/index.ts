@@ -3,7 +3,7 @@ import { watchDebounced } from '@vueuse/core'
 import {
   ref,
   unref,
-} from 'vue-demi'
+} from 'vue'
 
 export function usePasswordStrength (input: MaybeRef<string>) {
   const score = ref(0)

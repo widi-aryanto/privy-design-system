@@ -2,7 +2,7 @@
 import { render, fireEvent } from '@testing-library/vue'
 import userEvent from '@testing-library/user-event'
 import InputPin from './InputPin.vue'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import { vi } from 'vitest'
 
 const nextFocus = vi.fn()

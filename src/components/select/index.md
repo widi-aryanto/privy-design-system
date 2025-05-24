@@ -9,7 +9,7 @@ description: Base form input.
   import PiCaretDown16 from '@privyid/persona-icon/vue/caret-down/16.vue'
   import FuzzyAdapter from "../select/adapter/fuzzy-adapter"
   import defineAsyncAdapter from "./adapter/async-adapter"
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
   import { getProvinces, getCities } from './demo/get-region'
 
   const optionsA = ref(['Apple', 'Banana', 'Grape'])
