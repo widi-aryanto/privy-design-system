@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, computed } from 'vue-demi'
+import { ref, computed } from 'vue'
 import { vPTooltip } from '../tooltip'
 
 const props = defineProps({

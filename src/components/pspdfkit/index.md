@@ -9,7 +9,7 @@ description: Add object to PDF Viewer
   import pPdfObjectAddon from './PspdfObjectAddon.vue'
   import pButton from '../button/Button.vue'
   import IconClose from '@privyid/persona-icon/vue/close/16.vue'
-  import { reactive, ref, nextTick } from 'vue-demi'
+  import { reactive, ref, nextTick } from 'vue'
   import { random } from 'lodash-es'
   import pDropdown from '../dropdown/Dropdown.vue'
   import pDropdownItem from '../dropdown/DropdownItem.vue'

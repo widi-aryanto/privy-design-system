@@ -32,12 +32,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import {
   computed,
   inject,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import { useVModel } from '.'
 import type { SizeVariant } from '../button'
 import IconClear from '@privyid/persona-icon/vue/close-circle-solid/20.vue'

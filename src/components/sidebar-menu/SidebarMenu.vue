@@ -66,7 +66,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import Sidebar from '../sidebar/Sidebar.vue'
 import type { TypeVariant } from '../sidebar'
 import SidebarNav from '../sidebar/SidebarNav.vue'

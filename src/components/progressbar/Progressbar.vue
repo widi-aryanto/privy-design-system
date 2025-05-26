@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts" setup>
-import { computed } from 'vue-demi'
+import { computed } from 'vue'
 import { useProgressbar } from '.'
 
 const props = defineProps({

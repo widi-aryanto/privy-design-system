@@ -7,7 +7,7 @@ description: QRCode Image Generator
   import pQrcode from './Qrcode.vue'
   import pInput from '../input/Input.vue'
   import { withBase } from 'vitepress'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const Logo      = withBase('/assets/images/logo.svg')
   const result    = ref()

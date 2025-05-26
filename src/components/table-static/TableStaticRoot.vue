@@ -21,7 +21,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { HTMLAttributes, PropType } from 'vue-demi'
+import type { HTMLAttributes, PropType } from 'vue'
 
 defineOptions({ inheritAttrs: false })
 

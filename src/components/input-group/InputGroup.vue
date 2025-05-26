@@ -8,12 +8,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   provide,
   toRef,
-} from 'vue-demi'
+} from 'vue'
 import type { SizeVariant } from '../button'
 import { INPUTGROUP_SETTING } from '.'
 

@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import { inject, onUpdated } from 'vue-demi'
+import { inject, onUpdated } from 'vue'
 import { CAROUSEL_INSTANCE } from '.'
 
 const slider = inject(CAROUSEL_INSTANCE)

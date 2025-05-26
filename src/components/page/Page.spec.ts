@@ -1,6 +1,6 @@
 import { render } from '@testing-library/vue'
 import Page from './Page.vue'
-import { ref, nextTick } from 'vue-demi'
+import { ref, nextTick } from 'vue'
 
 it('should rendered properly without any props', () => {
   const screen = render({

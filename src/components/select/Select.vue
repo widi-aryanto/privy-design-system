@@ -171,12 +171,12 @@ import type {
   PropType,
   HTMLAttributes,
   VNode,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   ref,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import type { SelectItem } from '.'
 import {
   findSelected,

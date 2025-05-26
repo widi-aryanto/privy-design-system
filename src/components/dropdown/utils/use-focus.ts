@@ -1,6 +1,6 @@
 import { clamp } from 'lodash-es'
 import { focusable } from 'tabbable'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 
 export function useFocus (target: Ref<HTMLElement>, loop = true) {
   function travel (step: number) {

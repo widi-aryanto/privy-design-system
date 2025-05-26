@@ -10,7 +10,7 @@ description: Simple notification pop-up.
   import IconSuccess from '@privyid/persona-icon/vue/checkmark/20.vue'
   import IconFailed from '@privyid/persona-icon/vue/trash/20.vue'
   import Banner from '../banner/Banner.vue'
-  import { markRaw } from 'vue-demi'
+  import { markRaw } from 'vue'
 </script>
 
 # Popup
@@ -317,7 +317,7 @@ and or all type-variant with <code>filled</code> style-variant.
 </div>
 
 ```ts
-import { markRaw } from 'vue-demi'
+import { markRaw } from 'vue'
 import { popup } from '@privyid/persona/core'
 import IconSuccess from '@privyid/persona-icon/vue/checkmark/24.vue'
 import IconFailed from '@privyid/persona-icon/vue/trash/24.vue'

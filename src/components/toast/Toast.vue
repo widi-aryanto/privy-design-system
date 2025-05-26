@@ -61,11 +61,11 @@
 import type {
   PropType,
   Component,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   h,
-} from 'vue-demi'
+} from 'vue'
 import SpinnerRinggo from '../spinner/SpinnerRinggo.vue'
 import { vPMd } from '../markdown'
 import pButton from '../button/Button.vue'

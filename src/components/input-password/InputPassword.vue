@@ -29,8 +29,8 @@
 import pInput from '../input/Input.vue'
 import IconShow from '@privyid/persona-icon/vue/view/20.vue'
 import IconHide from '@privyid/persona-icon/vue/view-off/20.vue'
-import { ref } from 'vue-demi'
-import type { PropType } from 'vue-demi'
+import { ref } from 'vue'
+import type { PropType } from 'vue'
 import type { SizeVariant } from '../button'
 import type { AcceptVariant } from '../input/utils/accept'
 

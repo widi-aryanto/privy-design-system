@@ -7,7 +7,7 @@ description: Show chart data, Powered by ChartJS
   import pChart from './Chart.vue'
   import pChartSet from './ChartSet.vue'
   import pChartVal from './ChartVal.vue'
-  import { computed } from 'vue-demi'
+  import { computed } from 'vue'
 
   const data = computed(() => {
     return {

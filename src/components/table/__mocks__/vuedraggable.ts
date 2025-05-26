@@ -2,7 +2,7 @@ import {
   defineComponent,
   h,
   onMounted,
-} from 'vue-demi'
+} from 'vue'
 
 export default defineComponent({
   props: {

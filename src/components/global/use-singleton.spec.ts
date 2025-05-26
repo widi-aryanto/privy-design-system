@@ -3,7 +3,7 @@ import {
   queryByTestId,
   queryByText,
 } from '@testing-library/vue'
-import { defineComponent } from 'vue-demi'
+import { defineComponent } from 'vue'
 import {
   removeSingleton,
   resetInstance,

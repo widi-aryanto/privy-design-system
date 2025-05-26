@@ -6,7 +6,7 @@ description: Progress loading bar.
 <script setup>
   import pProgressbar from './Progressbar.vue'
   import pInputRange from '../input-range/InputRange.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const value = ref(50)
 </script>

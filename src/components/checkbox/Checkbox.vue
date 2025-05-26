@@ -23,8 +23,8 @@
 
 <script lang="ts" setup>
 import { useVModel } from '.'
-import type { PropType, VNode } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
+import { computed } from 'vue'
 import IconCheckbox from './icon/IconCheckbox.vue'
 import IconInderteminate from './icon/IconInderteminate.vue'
 

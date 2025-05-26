@@ -1,5 +1,5 @@
 import type { ChartData, ChartOptions } from 'chart.js/auto'
-import type { VNode } from 'vue-demi'
+import type { VNode } from 'vue'
 
 export interface ChartAdapter {
   getStyle: () => ChartOptions,

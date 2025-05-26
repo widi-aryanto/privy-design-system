@@ -10,7 +10,7 @@ import {
   ref,
   watch,
   defineComponent,
-} from 'vue-demi'
+} from 'vue'
 import { findAllChildren, toBoolean } from '../utils/vnode'
 import { useToNumber } from '@vueuse/core'
 

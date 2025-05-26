@@ -8,7 +8,7 @@ description: Collections of typography library
   import pHeading from '../../components/heading/Heading.vue'
   import pSubheading from '../../components/subheading/Subheading.vue'
   import pText from '../../components/text/Text.vue'
-  import { ref, computed } from "vue-demi"
+  import { ref, computed } from 'vue'
 </script>
 
 <style lang="postcss">
@@ -21,7 +21,7 @@ description: Collections of typography library
   <div class="w-2/3">
     <div class="pb-8 pt-20 space-y-1">
       Persona's typeface is using DM Sans. This typeface is available on google fonts.
-    </div>    
+    </div>
   </div>
 </div>
 
@@ -212,7 +212,7 @@ description: Collections of typography library
       <p-heading element="h4">DM Sans</p-heading>
       <p-caption class="!text-default dark:!text-dark-default" weight="bold">FONT SIZE / LINE HEIGHT / LETTER SPACING</p-caption>
       <p-caption><span class="!text-lightblue-50">Tailwind FONT-SIZE</span> • Tailwind LINE-HEIGHT • Tailwind LETTER-SPACING</p-caption>
-    </div>    
+    </div>
   </div>
 </div>
 

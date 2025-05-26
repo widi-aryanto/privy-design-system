@@ -1,4 +1,4 @@
-import { computed, getCurrentInstance } from 'vue-demi'
+import { computed, getCurrentInstance } from 'vue'
 import type { CheckboxProps } from '../checkbox'
 import { isEqual } from '../utils/value'
 

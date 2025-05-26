@@ -4,7 +4,7 @@ description: Base dashboard navbar.
 ---
 
 <script setup>
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import pNavbar from './Navbar.vue'
   import pNavbarBrand from './NavbarBrand.vue'
   import pNavbarNav from './NavbarNav.vue'

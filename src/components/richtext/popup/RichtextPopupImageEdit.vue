@@ -50,7 +50,7 @@ import IconAlignCenter from '@privyid/persona-icon/vue/align-center/20.vue'
 import IconAlignRight from '@privyid/persona-icon/vue/align-right/20.vue'
 import IconDelete from '@privyid/persona-icon/vue/trash/20.vue'
 import { useRichtextEditor } from '..'
-import { computed } from 'vue-demi'
+import { computed } from 'vue'
 import { withoutUnit, withUnit } from '../../table'
 
 const editor = useRichtextEditor()

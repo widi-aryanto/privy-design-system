@@ -50,7 +50,7 @@ import {
   watch,
   provide,
   computed,
-} from 'vue-demi'
+} from 'vue'
 import PdfObjects from './PspdfObjects.vue'
 import PdfNavigation from '../pdf-viewer/PdfNavigation.vue'
 import { PDF_VIEWER_CONTEXT, type LayoutVariant } from '../pdf-viewer'

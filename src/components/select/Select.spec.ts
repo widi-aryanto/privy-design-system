@@ -4,7 +4,7 @@ import { vi } from 'vitest'
 import {
   ref,
   nextTick,
-} from 'vue-demi'
+} from 'vue'
 import Select from './Select.vue'
 import type * as VueUse from '@vueuse/core'
 import defineAsyncAdapter from './adapter/async-adapter'

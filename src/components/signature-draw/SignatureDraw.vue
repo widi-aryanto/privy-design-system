@@ -24,12 +24,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   onMounted,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import SignatureDrawMobile from './SignatureDrawMobile.vue'
 import SignatureDrawDesktop from './SignatureDrawDesktop.vue'
 import type { ModelModifier } from '../dropzone'

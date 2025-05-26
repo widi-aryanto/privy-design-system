@@ -1,8 +1,8 @@
-import type { MaybeRefOrGetter } from 'vue-demi'
+import type { MaybeRefOrGetter } from 'vue'
 import {
   computed,
   toValue,
-} from 'vue-demi'
+} from 'vue'
 import { arrayFilter, arraySort } from '../utils/array'
 
 export type SortValue = 'asc' | 'desc'

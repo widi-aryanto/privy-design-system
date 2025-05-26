@@ -15,7 +15,7 @@ description: Table style guide
   import pToggle from '../../components/toggle/Toggle.vue'
   import IconMenu from '@privyid/persona-icon/vue/menu-horizontal/20.vue'
   import { defineTable } from '../../components/table'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const fields1 = defineTable([
     {
@@ -450,7 +450,7 @@ Table is used to organize and display information from a data set.
         Wrap instead of truncate content. This is because if row titles start with the same word, they’ll all appear the same when truncated.
       </li>
       <li>Not to be used for an actionable list of items that link to details pages. For this functionality</li>
-    </ul> 
+    </ul>
   </div>
 </div>
 
@@ -461,7 +461,7 @@ Table is used to organize and display information from a data set.
     <ul>
       <li>Use when you need to display tabular data in a view.</li>
       <li>Use a table element directly within the component.</li>
-    </ul> 
+    </ul>
   </div>
 </div>
 
@@ -474,7 +474,7 @@ Table is used to organize and display information from a data set.
       <li>Don’t use to display basic key and value pairs, consider a description list instead.</li>
       <li>Don’t use tables for layout.</li>
       <li>Don't use a primary button in every row of a table.</li>
-    </ul> 
+    </ul>
   </div>
 </div>
 

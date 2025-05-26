@@ -37,7 +37,7 @@ import {
   ref,
   toRef,
   watchEffect,
-} from 'vue-demi'
+} from 'vue'
 import useDrag from './utils/use-drag'
 import useResize from './utils/use-resize'
 import {

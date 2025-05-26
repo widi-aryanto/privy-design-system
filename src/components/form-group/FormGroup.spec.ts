@@ -1,6 +1,6 @@
 import { render } from '@testing-library/vue'
 import pFormGroup from './FormGroup.vue'
-import { ref, nextTick } from 'vue-demi'
+import { ref, nextTick } from 'vue'
 
 it('should mounted properly', () => {
   const screen = render({

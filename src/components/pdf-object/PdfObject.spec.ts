@@ -7,7 +7,7 @@ import useDrag, {
   triggerDragMove,
   triggerDragStart,
 } from './__mocks__/use-drag'
-import { reactive, ref } from 'vue-demi'
+import { reactive, ref } from 'vue'
 import * as pdfUtils from '.'
 import PdfObject from './PdfObject.vue'
 import PdfObjects from './PdfObjects.vue'

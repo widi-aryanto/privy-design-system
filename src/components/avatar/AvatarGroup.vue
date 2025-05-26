@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import type { SizeVariant } from '.'
 import pAvatarTruncate from './AvatarTruncate.vue'
 

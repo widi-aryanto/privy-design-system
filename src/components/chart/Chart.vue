@@ -20,7 +20,7 @@ import type {
   ChartOptions,
 } from 'chart.js/auto'
 import { watchIgnorable } from '@vueuse/core'
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import {
   onMounted,
   watch,
@@ -30,7 +30,7 @@ import {
   computed,
   nextTick,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import type { LegendPosition } from '.'
 import { defuFn } from 'defu'
 import getAdapter from './adapter/index'

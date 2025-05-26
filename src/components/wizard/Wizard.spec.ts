@@ -1,7 +1,7 @@
 import { fireEvent, render } from '@testing-library/vue'
 import { delay } from 'nanodelay'
 import { vi } from 'vitest'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import Wizard from './Wizard.vue'
 import WizardStep from './WizardStep.vue'
 

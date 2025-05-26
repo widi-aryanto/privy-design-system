@@ -4,7 +4,7 @@ import {
   watch,
   provide,
   onBeforeUnmount,
-} from 'vue-demi'
+} from 'vue'
 import type {
   Configuration,
   Instance,

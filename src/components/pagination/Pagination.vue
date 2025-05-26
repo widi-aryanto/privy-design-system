@@ -125,8 +125,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
-import { computed, watch } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
+import { computed, watch } from 'vue'
 import Button from '../button/Button.vue'
 import Select from '../select/Select.vue'
 import IconPrev from '@privyid/persona-icon/vue/chevron-left/20.vue'

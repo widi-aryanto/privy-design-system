@@ -18,7 +18,7 @@ description: Page with toggle expand for responsive purpose
   import IconSettings from '@privyid/persona-icon/vue/adjust/20.vue'
   import IconMenu from '@privyid/persona-icon/vue/menu-burger/20.vue'
   import { defineMenu } from '../sidebar-menu'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const IconEN = withBase('/assets/images/img-flag.svg')
 

@@ -23,12 +23,12 @@
 </template>
 
 <script lang="ts">
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   defineComponent,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import Calendar from '../../calendar/Calendar.vue'
 import Dropdown from '../../dropdown/Dropdown.vue'
 import DropdownHeader from '../../dropdown/DropdownHeader.vue'

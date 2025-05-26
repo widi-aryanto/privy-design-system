@@ -61,12 +61,12 @@ import type {
   VNode,
   PropType,
   Component,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   watch,
   h,
-} from 'vue-demi'
+} from 'vue'
 import Subheading from '../subheading/Subheading.vue'
 import pCollapse from '../collapse/Collapse.vue'
 import ChevronUp from '@privyid/persona-icon/vue/chevron-up/16.vue'

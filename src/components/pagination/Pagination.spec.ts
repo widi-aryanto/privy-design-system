@@ -4,7 +4,7 @@ import {
   within,
 } from '@testing-library/vue'
 import { vi } from 'vitest'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import Pagination from './Pagination.vue'
 
 it('should render properly without any props', () => {

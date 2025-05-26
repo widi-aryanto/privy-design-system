@@ -101,6 +101,7 @@ module.exports = {
     'align-assignments/align-assignments'       : [2, { requiresOnly: false }],
     'vue/multi-word-component-names'            : 'off',
     'vue/no-reserved-component-names'           : 'off',
+    'vue/return-in-computed-property'           : 'off',
     'vue/html-closing-bracket-newline'          : [
       'error',
       {

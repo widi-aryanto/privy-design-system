@@ -118,12 +118,12 @@ import type {
   HTMLAttributes,
   PropType,
   VNode,
-} from 'vue-demi'
+} from 'vue'
 import {
   ref,
   watch,
   computed,
-} from 'vue-demi'
+} from 'vue'
 import type {
   ApperanceVariant,
   TableField,

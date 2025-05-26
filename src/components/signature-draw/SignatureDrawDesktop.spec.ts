@@ -3,7 +3,7 @@ import { fireEvent, render } from '@testing-library/vue'
 import { useDraw, triggerDraw } from './__mocks__/use-draw'
 import * as canvas from './__mocks__/canvas'
 import SignatureDrawDesktop from './SignatureDrawDesktop.vue'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 
 vi.mock('./utils/use-draw.ts', () => ({ default: useDraw }))
 

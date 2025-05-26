@@ -17,7 +17,7 @@ import pFormGroup from '../../components/form-group/FormGroup.vue'
 import pLabel from '../../components/label/Label.vue'
 import PiDownload16 from '@privyid/persona-icon/vue/download/16.vue'
 import { createSpinner } from '../../components/avatar/utils/create-image'
-import { computed, ref } from 'vue-demi'
+import { computed, ref } from 'vue'
 import {
   groupBy,
   sortBy,

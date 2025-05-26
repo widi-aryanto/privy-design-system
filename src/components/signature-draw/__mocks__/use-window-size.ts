@@ -1,5 +1,5 @@
 import { vi } from 'vitest'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 
 const width = ref(375)
 

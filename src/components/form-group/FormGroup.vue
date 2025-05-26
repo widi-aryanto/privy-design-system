@@ -65,8 +65,8 @@ import IconInfo from '@privyid/persona-icon/vue/information-circle-solid/20.vue'
 import pCaption from '../caption/Caption.vue'
 import { vPMd } from '../markdown/'
 import { vPTooltip } from '../tooltip'
-import type { VNode } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { VNode } from 'vue'
+import { computed } from 'vue'
 
 const props = defineProps({
   required: {

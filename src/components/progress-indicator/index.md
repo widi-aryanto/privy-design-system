@@ -5,7 +5,7 @@ description: Sub-component for Carousel.
 
 <script setup>
   import pProgressIndicator from './ProgressIndicator.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const active = ref()
 </script>

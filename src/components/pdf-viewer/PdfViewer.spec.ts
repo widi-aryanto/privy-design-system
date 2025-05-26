@@ -3,7 +3,7 @@ import * as useViewer from './__mocks__/use-viewer'
 import PdfViewer from './PdfViewer.vue'
 import { vi } from 'vitest'
 import { delay } from 'nanodelay'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 
 vi.mock('../pdf-object/utils/use-drop.ts', () => ({ default: vi.fn(() => ref(true)) }))
 
@@ -249,8 +249,8 @@ it('should be able to change num-of-pages, first and last navigation label via p
     template  : `
       <pdf-viewer
           src="http://sample.pdf"
-          first-nav-label="Awal" 
-          last-nav-label="Akhir" 
+          first-nav-label="Awal"
+          last-nav-label="Akhir"
           num-of-pages-nav-label="dari"
       />
     `,

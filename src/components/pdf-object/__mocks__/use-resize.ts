@@ -1,10 +1,10 @@
 import type { InteractEvent } from '@interactjs/types'
 import type { ResizeOptions } from '../utils/use-resize'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   nextTick,
   ref,
-} from 'vue-demi'
+} from 'vue'
 
 let options: ResizeOptions
 

@@ -23,8 +23,8 @@
 import type {
   Slots,
   VNode,
-} from 'vue-demi'
-import { computed } from 'vue-demi'
+} from 'vue'
+import { computed } from 'vue'
 import { findAllChildren } from '../utils/vnode'
 import Steps from '../steps/Steps.vue'
 import Step from '../steps/Step.vue'

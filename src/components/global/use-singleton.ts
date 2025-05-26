@@ -4,7 +4,7 @@ import type {
   Ref,
   App,
   InjectionKey,
-} from 'vue-demi'
+} from 'vue'
 import {
   createApp,
   h,
@@ -13,7 +13,7 @@ import {
   shallowRef,
   triggerRef,
   nextTick,
-} from 'vue-demi'
+} from 'vue'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/ban-types
 export type Component = DefineComponent<any, any, any>

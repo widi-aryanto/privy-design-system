@@ -10,7 +10,7 @@ description: Classic style Table.
   import pHeading from '../heading/Heading.vue'
   import pText from '../text/Text.vue'
   import { defineTable } from '../table'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import { useTableQuery } from '.'
 
   const fields = defineTable([

@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   nextTick,
@@ -31,7 +31,7 @@ import {
   provide,
   ref,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import CarouselBody from './CarouselBody.vue'
 import ProgressIndicator from '../progress-indicator/ProgressIndicator.vue'
 import type { DirectionVariant } from '../steps'

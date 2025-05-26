@@ -4,7 +4,7 @@ description: Collection of buttons consisting of at least 2 buttons in single li
 ---
 
 <script setup>
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
   import pButtonGroup from './ButtonGroup.vue'
   import pButton from '../button/Button.vue'
   import pDropdown from '../dropdown/Dropdown.vue'

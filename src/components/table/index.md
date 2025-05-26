@@ -11,7 +11,7 @@ description: Delightful datatables.
   import pText from '../text/Text.vue'
   import pBanner from '../banner/Banner.vue'
   import { defineTable } from '.'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const fields = defineTable([
     'id',

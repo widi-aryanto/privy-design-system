@@ -33,13 +33,13 @@
 
 <script lang="ts" setup>
 import acceptFile from './utils/accept'
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import {
   computed,
   nextTick,
   ref,
   toRef,
-} from 'vue-demi'
+} from 'vue'
 import { useVModel } from '../input'
 import { toBase64 } from '../utils/base64'
 import { useToNumber } from '@vueuse/shared'

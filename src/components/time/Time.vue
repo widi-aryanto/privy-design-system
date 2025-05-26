@@ -40,14 +40,14 @@
 <script setup lang="ts">
 import pCard from '../card/Card.vue'
 import TimeItem from './TimeItem.vue'
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   watch,
   computed,
   nextTick,
   onBeforeMount,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import { watchDebounced } from '@vueuse/core'
 import { useVModel } from '../input'
 import {

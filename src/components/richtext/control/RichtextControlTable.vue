@@ -33,7 +33,7 @@
 import pDropdown from '../../dropdown/Dropdown.vue'
 import IconCaret from '@privyid/persona-icon/vue/caret-down/16.vue'
 import IconTable from '@privyid/persona-icon/vue/table/20.vue'
-import { computed, ref } from 'vue-demi'
+import { computed, ref } from 'vue'
 import { useRichtextEditor } from '..'
 
 const MAX_ROWS = 10

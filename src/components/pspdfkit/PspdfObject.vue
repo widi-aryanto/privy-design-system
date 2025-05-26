@@ -24,7 +24,7 @@ import {
   onMounted,
   onBeforeUnmount,
   inject,
-} from 'vue-demi'
+} from 'vue'
 import PdfObjectDebugger from '../pdf-object/PdfObjectDebugger.vue'
 import {
   syncRef,

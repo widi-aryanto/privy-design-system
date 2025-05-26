@@ -15,7 +15,7 @@ import pBadge from '../badge/Badge.vue'
 import pNavItemDropdown from './NavItemDropdown.vue'
 import pDropdownItem from '../dropdown/DropdownItem.vue'
 import pRadio from '../radio/Radio.vue'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 
 const numb = ref(0)
 </script>

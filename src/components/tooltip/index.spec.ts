@@ -1,6 +1,6 @@
 import { render, fireEvent } from '@testing-library/vue'
 import { delay } from 'nanodelay'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import {
   pTooltip,
   vPTooltip,

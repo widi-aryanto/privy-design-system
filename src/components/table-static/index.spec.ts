@@ -1,4 +1,4 @@
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import { useTableQuery } from '.'
 
 describe('useTableQuery', () => {

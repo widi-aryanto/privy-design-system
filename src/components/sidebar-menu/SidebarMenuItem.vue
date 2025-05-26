@@ -51,7 +51,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import type { Menu, MenuItem } from '.'
 import NavItem from '../nav/NavItem.vue'
 import NavSubItem from '../nav/NavSubItem.vue'

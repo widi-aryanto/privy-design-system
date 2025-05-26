@@ -133,7 +133,6 @@
     "vue": "3.5.13",
     "vue-collapsed": "^1.2.5",
     "vue-content-loader": "^2.0.1",
-    "vue-demi": "0.14.10",
     "vue-router": "4.5.1",
     "vuedraggable": "next",
     "webfontloader": "1.6.28",

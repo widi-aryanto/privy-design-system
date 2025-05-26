@@ -4,7 +4,7 @@ description: Simple notification pop-up.
 ---
 
 <script setup>
-  import { ref, markRaw } from 'vue-demi'
+  import { ref, markRaw } from 'vue'
   import Button from '../button/Button.vue'
   import Toast from './Toast.vue'
   import toast from '.'

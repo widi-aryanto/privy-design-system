@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
 import type { Placement } from '@floating-ui/dom'
-import type { Directive } from 'vue-demi'
+import type { Directive } from 'vue'
 import { useSingleton } from '../global/use-singleton'
 import createHandler from './utils/create-handler'
 import { addHoverListener, removeHoverListener } from './utils/on-hover'

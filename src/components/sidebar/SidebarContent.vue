@@ -6,7 +6,7 @@
 import {
   defineComponent,
   h,
-} from 'vue-demi'
+} from 'vue'
 import { findAllChildren, toBoolean } from '../utils/vnode'
 
 export default defineComponent({

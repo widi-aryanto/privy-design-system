@@ -45,8 +45,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
-import { computed, ref } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
+import { computed, ref } from 'vue'
 import { useVModel } from '../input'
 import pDropzone from '../dropzone/Dropzone.vue'
 import pInput from '../input/Input.vue'

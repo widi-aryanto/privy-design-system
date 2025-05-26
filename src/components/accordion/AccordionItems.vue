@@ -3,8 +3,8 @@
  * TODO: Migrate this component to script setup after defineRender has been release
  * https://github.com/vuejs/rfcs/discussions/585
  */
-import type { PropType } from 'vue-demi'
-import { defineComponent, h } from 'vue-demi'
+import type { PropType } from 'vue'
+import { defineComponent, h } from 'vue'
 import { findAllChildren } from '../utils/vnode'
 
 export default defineComponent({

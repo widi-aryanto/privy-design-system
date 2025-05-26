@@ -13,7 +13,7 @@ description: Base radio form input.
   import IconBuilding from '@privyid/persona-icon/vue/building/20.vue'
   import IconShop from '@privyid/persona-icon/vue/shop/20.vue'
   import IconCheck from '@privyid/persona-icon/vue/checkmark-circle/20.vue'
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
 
   const value    = ref('')
   const selected = ref()

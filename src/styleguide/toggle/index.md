@@ -8,7 +8,7 @@ description: Toggle style guide
   import pCaption from '../../components/caption/Caption.vue'
   import IconLight from '@privyid/persona-icon/vue/sun/16.vue'
   import IconDark from '@privyid/persona-icon/vue/moon/16.vue'
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
   import { useDark } from '@vueuse/core'
 
   const isDark = useDark()
@@ -20,7 +20,7 @@ description: Toggle style guide
 
 ### Usage
 
-A toggle is used to view or switch between enabled or disabled states. Toggle switch gives control over a feature or option that can be turned on or off. 
+A toggle is used to view or switch between enabled or disabled states. Toggle switch gives control over a feature or option that can be turned on or off.
 
 ### State
 
@@ -120,7 +120,7 @@ A toggle is used to view or switch between enabled or disabled states. Toggle sw
     <ul>
       <li>Let people know what happens when the toggle is switched by using a tooltip.</li>
       <li>Toggles should never require users to press a button to apply the settings.</li>
-    </ul> 
+    </ul>
   </div>
 </div>
 
@@ -132,7 +132,7 @@ A toggle is used to view or switch between enabled or disabled states. Toggle sw
       <li>Use for any feature or option that can be turned on or off.</li>
       <li>If a physical switch would work for the action, the toggle is probably the best component to use.</li>
       <li>Use for making it possible to choose one or more options from a limited number of options.</li>
-    </ul> 
+    </ul>
   </div>
 </div>
 
@@ -145,6 +145,6 @@ A toggle is used to view or switch between enabled or disabled states. Toggle sw
       <li>
         Don’t change the selection of another toggle when another one is clicked. Only exception is when a toggle is used to make a bulk selection of multiple items.
       </li>
-    </ul> 
+    </ul>
   </div>
 </div>

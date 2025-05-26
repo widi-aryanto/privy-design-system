@@ -1,5 +1,5 @@
 import { fireEvent, render } from '@testing-library/vue'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import pInputFile from './InputFile.vue'
 import IconEmail from '@privyid/persona-icon/vue/email/20.vue'
 

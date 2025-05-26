@@ -6,7 +6,7 @@ description: Base color-input form.
 <script setup>
   import pInputColor from './inputColor.vue'
   import pButton from '../button/Button.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const colorDefault = ref('')
   const colorCustom = ref('')
@@ -115,11 +115,11 @@ Clear button are hidden by default. To show clear button, you can set `clearable
 <template>
   <p-input-color clearable v-model="color">
     <template #clearable="{ clear }">
-      <p-button 
-        :disabled="!color" 
-        style="--p-button-sm-padding-x: 0" 
-        size="sm" 
-        variant="link" 
+      <p-button
+        :disabled="!color"
+        style="--p-button-sm-padding-x: 0"
+        size="sm"
+        variant="link"
         @click="clear">Reset</p-button>
     </template>
   </p-input-color>

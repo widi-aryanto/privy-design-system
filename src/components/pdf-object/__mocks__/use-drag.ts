@@ -1,9 +1,9 @@
 import type { InteractEvent } from '@interactjs/types'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   nextTick,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import type { DragHooks } from '../utils/use-drag'
 
 let options: DragHooks

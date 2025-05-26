@@ -3,11 +3,11 @@
  * TODO: Migrate this component to script setup after defineRender has been release
  * https://github.com/vuejs/rfcs/discussions/585
  */
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   h,
   defineComponent,
-} from 'vue-demi'
+} from 'vue'
 import { findAllChildren } from '../utils/vnode'
 import type { SizeVariant } from '.'
 import pAvatar from './Avatar.vue'

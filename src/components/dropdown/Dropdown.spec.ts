@@ -1,7 +1,7 @@
 import { fireEvent, render } from '@testing-library/vue'
 import { delay } from 'nanodelay'
 import { vi } from 'vitest'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import Dropdown from './Dropdown.vue'
 import DropdownItem from './DropdownItem.vue'
 import { until } from '@vueuse/core'

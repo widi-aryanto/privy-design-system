@@ -3846,7 +3846,6 @@ __metadata:
     vue: "npm:3.5.13"
     vue-collapsed: "npm:^1.2.5"
     vue-content-loader: "npm:^2.0.1"
-    vue-demi: "npm:0.14.10"
     vue-router: "npm:4.5.1"
     vue-tsc: "npm:2.1.10"
     vuedraggable: "npm:next"
@@ -4016,7 +4015,6 @@ __metadata:
     tiptap-extension-font-size: "npm:^1.2.0"
     ufo: "npm:^1.5.4"
     vue-collapsed: "npm:1.3.4"
-    vue-demi: "npm:0.14.10"
     vuedraggable: "npm:next"
     webfontloader: "npm:1.6.28"
     zxcvbn: "npm:4.4.2"
@@ -21637,7 +21635,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-demi@npm:0.14.10, vue-demi@npm:>=0.14.10":
+"vue-demi@npm:>=0.14.10":
   version: 0.14.10
   resolution: "vue-demi@npm:0.14.10"
   peerDependencies:

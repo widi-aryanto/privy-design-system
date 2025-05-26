@@ -2,7 +2,7 @@ import { render, fireEvent } from '@testing-library/vue'
 import { vi } from 'vitest'
 import pAccordionItem from './AccordionItem.vue'
 import iconPrivy from '@privyid/persona-icon/vue/privy-alt/24.vue'
-import { markRaw } from 'vue-demi'
+import { markRaw } from 'vue'
 
 it('should render properly without any props', () => {
   const screen = render({
@@ -125,8 +125,8 @@ it('Should be able to add custom title class from `titleClass` props', () => {
   const screen = render({
     components: { pAccordionItem },
     template  : `
-      <p-accordion-item 
-        title="custom title class" 
+      <p-accordion-item
+        title="custom title class"
         titleClass="custom-title-class">
         content
       </p-accordion-item>
@@ -143,7 +143,7 @@ it('Should be able to add custom content class from `contentClass` props', () =>
   const screen = render({
     components: { pAccordionItem },
     template  : `
-      <p-accordion-item 
+      <p-accordion-item
         title="custom content class"
         contentClass="custom-content-class">
         content
@@ -182,7 +182,7 @@ it('Should be able to custom icon via `icon` props', () => {
   const screen = render({
     components: { pAccordionItem },
     template  : `
-      <p-accordion-item 
+      <p-accordion-item
         title="custom icon class"
         icon="http://lorem-picsum.com">
         content
@@ -208,7 +208,7 @@ it('should be able to custom icon with Component and add custom icon class via `
       iconPrivy,
     },
     template: `
-      <p-accordion-item 
+      <p-accordion-item
         title="custom icon"
         :icon="icon"
         iconClass="custom-icon-class">

@@ -5,7 +5,7 @@ description: Navbar style guide
 
 <script setup>
   import Heading from '../../components/heading/Heading.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import pNavbar from '../../components/navbar/Navbar.vue'
   import pNavbarBrand from '../../components/navbar/NavbarBrand.vue'
   import pNavbarNav from '../../components/navbar/NavbarNav.vue'

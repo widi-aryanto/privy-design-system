@@ -22,7 +22,7 @@ import {
   inject,
   ref,
   watchEffect,
-} from 'vue-demi'
+} from 'vue'
 import { PDF_OBJECT_CONTEXT } from '.'
 
 const {

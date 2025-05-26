@@ -60,12 +60,12 @@ import { useWindowSize } from '@vueuse/core'
 import type {
   PropType,
   StyleValue,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   ref,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import Button from '../button/Button.vue'
 import { useVModel } from '../input'
 import SignatureDrawDesktop from './SignatureDrawDesktop.vue'

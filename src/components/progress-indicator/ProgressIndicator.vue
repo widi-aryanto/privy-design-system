@@ -27,8 +27,8 @@ import { useClamp } from '@vueuse/math'
 import type {
   StyleValue,
   PropType,
-} from 'vue-demi'
-import { computed, toRef } from 'vue-demi'
+} from 'vue'
+import { computed, toRef } from 'vue'
 import type { DirectionVariant } from '../steps'
 
 const props = defineProps({

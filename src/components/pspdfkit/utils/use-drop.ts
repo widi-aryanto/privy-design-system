@@ -1,10 +1,10 @@
 import type { Interactable } from '@interactjs/types'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   onScopeDispose,
   shallowRef,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import { usePspdf } from '..'
 
 export default function useDrop (target: Ref<HTMLElement>) {

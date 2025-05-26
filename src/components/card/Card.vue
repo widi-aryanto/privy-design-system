@@ -53,8 +53,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
-import { computed, ref } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
+import { computed, ref } from 'vue'
 import IconClose from '@privyid/persona-icon/vue/close/16.vue'
 import Heading from '../heading/Heading.vue'
 import type { ElementVariant, SpacingVariant } from '.'

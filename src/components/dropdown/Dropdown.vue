@@ -71,7 +71,7 @@
 import type {
   PropType,
   VNode,
-} from 'vue-demi'
+} from 'vue'
 import {
   provide,
   watch,
@@ -79,7 +79,7 @@ import {
   watchEffect,
   computed,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import {
   onClickOutside,
   onKeyStroke,

@@ -140,11 +140,11 @@
 </template>
 
 <script lang="ts">
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   defineComponent,
-} from 'vue-demi'
+} from 'vue'
 import type { TableField } from '.'
 import Checkbox from '../checkbox/Checkbox.vue'
 import { useVModel } from '../input'

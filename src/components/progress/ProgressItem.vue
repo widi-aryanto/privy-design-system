@@ -24,8 +24,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { VNode } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { VNode } from 'vue'
+import { computed } from 'vue'
 
 defineOptions({ name: 'ProgressItem' })
 

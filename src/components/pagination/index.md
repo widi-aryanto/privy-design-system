@@ -4,7 +4,7 @@ description: Table pagination control.
 ---
 
 <script setup>
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import pPagination from './Pagination.vue'
 
 import IconNextOutline from '@privyid/persona-icon/vue/arrow-circle-right/20.vue'

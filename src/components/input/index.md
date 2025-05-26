@@ -5,7 +5,7 @@ description: Base text-input form.
 
 <script setup>
   import pInput from "./Input.vue"
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
   import IconAt from '@privyid/persona-icon/vue/address/20.vue'
   import IconCheck from '@privyid/persona-icon/vue/information-circle-solid/20.vue'
   import IconEmail from '@privyid/persona-icon/vue/email/20.vue'

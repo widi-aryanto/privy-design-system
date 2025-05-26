@@ -1,5 +1,5 @@
 import { fireEvent, render } from '@testing-library/vue'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import pTextarea from './Textarea.vue'
 import userEvent from '@testing-library/user-event'
 

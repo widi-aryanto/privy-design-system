@@ -1,11 +1,11 @@
 import type { InteractEvent, Interactable } from '@interactjs/types'
 import { throttle } from 'lodash-es'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   onBeforeUnmount,
   onMounted,
   shallowRef,
-} from 'vue-demi'
+} from 'vue'
 
 export interface DrawHooks {
   onstart?: (event: InteractEvent) => void,

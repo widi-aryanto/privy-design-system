@@ -23,7 +23,7 @@ import {
   computed,
   inject,
   h,
-} from 'vue-demi'
+} from 'vue'
 import Dropdown from '../dropdown/Dropdown.vue'
 import IconChevron from '@privyid/persona-icon/vue/chevron-right/20.vue'
 

@@ -10,8 +10,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
-import { inject } from 'vue-demi'
+import type { PropType } from 'vue'
+import { inject } from 'vue'
 import Nav from '../nav/Nav.vue'
 import type { AlignVariant } from '../nav'
 import { NAVBAR_SETTINGS } from '.'

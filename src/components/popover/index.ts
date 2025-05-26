@@ -2,7 +2,7 @@ import {
   ref,
   type InjectionKey,
   type Ref,
-} from 'vue-demi'
+} from 'vue'
 
 interface PopoverContext {
   hide: () => void,

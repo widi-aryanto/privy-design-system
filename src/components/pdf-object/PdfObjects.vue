@@ -12,7 +12,7 @@ import {
   ref,
   provide,
   toRef,
-} from 'vue-demi'
+} from 'vue'
 import { PDF_OBJECTS_CONTEXT } from '.'
 import { usePdfContext } from '../pdf-viewer'
 import useDrop from './utils/use-drop'

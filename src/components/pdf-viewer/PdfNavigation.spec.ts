@@ -4,7 +4,7 @@ import {
   nextTick,
   provide,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import { PDF_VIEWER_CONTEXT } from '.'
 
 function createContext () {

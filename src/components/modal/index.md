@@ -4,7 +4,7 @@ description: ase component for modal dialog.
 ---
 
 <script setup>
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import pText from '../text/Text.vue'
   import pButton from '../button/Button.vue'
   import pModal from './Modal.vue'

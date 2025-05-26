@@ -57,10 +57,10 @@ import type {
   VNode,
   PropType,
   Slots,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
-} from 'vue-demi'
+} from 'vue'
 import Nav from '../nav/Nav.vue'
 import type {
   StyleVariant as TabsStyleVariant,

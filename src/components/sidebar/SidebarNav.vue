@@ -62,11 +62,11 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   inject,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import Nav from '../nav/Nav.vue'
 import Caption from '../caption/Caption.vue'
 import Text from '../text/Text.vue'

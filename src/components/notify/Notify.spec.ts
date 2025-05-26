@@ -1,7 +1,7 @@
 import { fireEvent, render } from '@testing-library/vue'
 import Sample from './__mocks__/Sample.vue'
 import pNotify from './Notify.vue'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import { vi } from 'vitest'
 
 beforeEach(() => {

@@ -1,6 +1,6 @@
 import { fireEvent, render } from '@testing-library/vue'
 import { vi } from 'vitest'
-import { markRaw } from 'vue-demi'
+import { markRaw } from 'vue'
 import Popup from './Popup.vue'
 import IconFailed from '@privyid/persona-icon/vue/trash/24.vue'
 import { SVGElement } from 'happy-dom'

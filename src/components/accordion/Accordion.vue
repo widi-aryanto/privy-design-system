@@ -24,8 +24,8 @@
 <script lang="ts" setup>
 import { useVModel } from '../input'
 import { type AccordionItem } from '.'
-import type { PropType } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { PropType } from 'vue'
+import { computed } from 'vue'
 import Item from './AccordionItem.vue'
 import AccordionItems from './AccordionItems.vue'
 

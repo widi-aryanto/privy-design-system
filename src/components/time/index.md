@@ -7,7 +7,7 @@ description: Sub-component for Timepicker
   import pTime from "./Time.vue"
   import pToggle from '../toggle/Toggle.vue'
   import pButton from "../button/Button.vue"
-  import { ref, watch } from "vue-demi"
+  import { ref, watch } from 'vue'
   import { startOfDay, set } from 'date-fns'
 
   const minTime = ref(set(new Date(), { hours: 1, minutes: 20 }))

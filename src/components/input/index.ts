@@ -1,10 +1,10 @@
 import { syncRef } from '@vueuse/core'
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   computed,
   getCurrentInstance,
   ref,
-} from 'vue-demi'
+} from 'vue'
 
 export interface InputProps<V = string> {
   modelValue?: V,

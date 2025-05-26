@@ -5,7 +5,7 @@ description: Draw signature like using real pen
 <script setup>
   import pSignatureDraw from './SignatureDraw.vue'
   import pButton from '../button/Button.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import { withBase } from 'vitepress'
 
   const EMPTY_IMG = withBase('/assets/images/empty-img.png')

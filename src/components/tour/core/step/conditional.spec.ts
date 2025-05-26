@@ -1,4 +1,4 @@
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import { MockStep } from '../../__mocks__/step'
 import { TourDirection } from '../base'
 import { Tour } from '../tour'

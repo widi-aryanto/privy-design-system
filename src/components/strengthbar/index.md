@@ -8,7 +8,7 @@ description: Component for displaying measurment.
   import pInputPassword from '../input-password/InputPassword.vue'
   import pInputRange from '../input-range/InputRange.vue'
   import { usePasswordStrength } from '../input-password'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const input = ref('')
   const score = usePasswordStrength(input)
@@ -63,7 +63,7 @@ description: Component for displaying measurment.
 </template>
 
 <script setup>
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import { usePasswordStrength } from '@privyid/persona/core'
 
   const input = ref('')

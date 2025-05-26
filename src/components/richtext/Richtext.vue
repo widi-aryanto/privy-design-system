@@ -34,12 +34,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   provide,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import type { EditorOptions } from '@tiptap/vue-3'
 import {
   useEditor,

@@ -1,7 +1,7 @@
 import { render } from '@testing-library/vue'
 import { vi } from 'vitest'
 import { useMediaQuery, setScreenWidth } from './__mocks__/use-media-query'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import type * as VueUse from '@vueuse/core'
 import pCollapse from './Collapse.vue'
 import pNavbar from '../navbar/Navbar.vue'

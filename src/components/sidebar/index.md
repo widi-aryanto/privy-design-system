@@ -20,7 +20,7 @@ description: Base dashboard sidebar menu.
   import IconDashboard from '@privyid/persona-icon/vue/dashboard/20.vue'
   import IconCheck from '@privyid/persona-icon/vue/checkmark/20.vue'
   import IconClose from '@privyid/persona-icon/vue/close/20.vue'
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
 
   const model   = ref(false)
   const modelA  = ref(false)

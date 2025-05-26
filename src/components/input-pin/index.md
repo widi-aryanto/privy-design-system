@@ -5,7 +5,7 @@ description: One at time input form.
 
 <script setup>
   import pInputPin from './InputPin.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const result = ref('')
 </script>

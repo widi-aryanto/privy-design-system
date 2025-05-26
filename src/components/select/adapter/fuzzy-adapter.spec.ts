@@ -1,5 +1,5 @@
 import Adapter from './fuzzy-adapter'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 
 it('should be able to display items from props `options`', async () => {
   const items = Adapter.setup({

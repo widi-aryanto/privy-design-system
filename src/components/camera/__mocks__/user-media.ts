@@ -3,7 +3,7 @@ import {
   nextTick,
   ref,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import type { UseUserMediaOptions } from '@vueuse/core'
 
 export function useDevicesList () {

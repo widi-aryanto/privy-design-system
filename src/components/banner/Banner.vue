@@ -37,8 +37,8 @@ import type {
   PropType,
   StyleValue,
   VNode,
-} from 'vue-demi'
-import { ref, computed } from 'vue-demi'
+} from 'vue'
+import { ref, computed } from 'vue'
 import type { StyleVariant } from '.'
 
 const BannerIcons = {

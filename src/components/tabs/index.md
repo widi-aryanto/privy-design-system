@@ -10,7 +10,7 @@ description: Base tab menus.
   import IconEdit from '@privyid/persona-icon/vue/edit/20.vue'
   import IconView from '@privyid/persona-icon/vue/view/20.vue'
   import IconDocument from '@privyid/persona-icon/vue/document-filled/20.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const active = ref(1)
 </script>

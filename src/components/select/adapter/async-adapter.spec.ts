@@ -3,7 +3,7 @@ import { onScrollBottom, triggerScroll } from '../__mocks__/use-on-scroll'
 import { vi } from 'vitest'
 import type { LoadFn } from './async-adapter'
 import defineAsyncAdapter from './async-adapter'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import { delay } from 'nanodelay'
 
 vi.mock('../utils/use-on-scroll', () => {

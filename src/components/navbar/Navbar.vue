@@ -9,14 +9,14 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   provide,
   ref,
   toRef,
   watchEffect,
-} from 'vue-demi'
+} from 'vue'
 import type { StyleVariant } from '../nav'
 import {
   useElementBounding,

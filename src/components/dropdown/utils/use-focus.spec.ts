@@ -1,6 +1,6 @@
 import { queryByTestId } from '@testing-library/dom'
 import { useFocus } from './use-focus'
-import { shallowRef } from 'vue-demi'
+import { shallowRef } from 'vue'
 import { vi } from 'vitest'
 
 vi.mock('tabbable', () => {

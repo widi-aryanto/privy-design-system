@@ -12,7 +12,7 @@ description: Table but using flexbox.
   import pButton from '../button/Button.vue'
   import PiTrash16 from '@privyid/persona-icon/vue/trash/16.vue'
   import { defineTable } from '../table'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const fields = defineTable([
     'id',

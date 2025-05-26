@@ -38,8 +38,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
+import { computed } from 'vue'
 import { useVModel } from '../checkbox'
 
 type StyleVariant = 'pill' | 'flat'

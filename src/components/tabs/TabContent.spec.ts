@@ -5,12 +5,12 @@ import Tab from './Tab.vue'
 import {
   nextTick,
   ref,
-} from 'vue-demi'
+} from 'vue'
 import { vi } from 'vitest'
-import type * as VueDemi from 'vue-demi'
+import type * as VueDemi from 'vue'
 
-vi.mock('vue-demi', async () => {
-  const vueDemi = await vi.importActual('vue-demi')
+vi.mock('vue', async () => {
+  const vueDemi = await vi.importActual('vue')
 
   return {
     ...vueDemi as typeof VueDemi,

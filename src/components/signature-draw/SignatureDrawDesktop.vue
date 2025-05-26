@@ -31,12 +31,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   onMounted,
   ref,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import {
   clearAll,
   drawLine,

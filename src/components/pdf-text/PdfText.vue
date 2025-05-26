@@ -9,8 +9,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
-import { onMounted, ref } from 'vue-demi'
+import type { PropType } from 'vue'
+import { onMounted, ref } from 'vue'
 import { createSpinner } from '../avatar/utils/create-image'
 import { usePreview } from '../cropper'
 import type { ModelModifier } from '../dropzone'

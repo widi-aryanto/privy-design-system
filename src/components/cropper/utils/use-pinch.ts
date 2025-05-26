@@ -1,9 +1,9 @@
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   onBeforeUnmount,
   onMounted,
   shallowRef,
-} from 'vue-demi'
+} from 'vue'
 import type {
   InteractEvent,
   Interactable,

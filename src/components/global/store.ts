@@ -1,9 +1,9 @@
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   effectScope,
   ref,
   toRef,
-} from 'vue-demi'
+} from 'vue'
 import type { LiteralUnion } from 'type-fest'
 
 type Lang = LiteralUnion<'id' | 'en', string>

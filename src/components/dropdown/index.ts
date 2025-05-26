@@ -1,4 +1,4 @@
-import type { Ref, InjectionKey } from 'vue-demi'
+import type { Ref, InjectionKey } from 'vue'
 
 export type MenuSizeVariant = 'sm' | 'md' | 'lg' | 'xl' | 'auto' | 'full'
 

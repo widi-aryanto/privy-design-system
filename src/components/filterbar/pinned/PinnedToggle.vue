@@ -10,8 +10,8 @@
 </template>
 
 <script lang="ts">
-import type { PropType } from 'vue-demi'
-import { defineComponent } from 'vue-demi'
+import type { PropType } from 'vue'
+import { defineComponent } from 'vue'
 import Button from '../../button/Button.vue'
 import { useVModel } from '../../checkbox'
 import type { FilterToggle } from '..'

@@ -1,10 +1,10 @@
 import type {
   Component,
   VNode,
-} from 'vue-demi'
+} from 'vue'
 import {
   Fragment,
-} from 'vue-demi'
+} from 'vue'
 
 /**
  * Coerce props's value to boolean

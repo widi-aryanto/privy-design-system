@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/vue'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import pAccordion from './Accordion.vue'
 import pAccordionItem from './AccordionItem.vue'
 import { defineAccordion } from '.'

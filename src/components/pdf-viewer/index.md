@@ -13,7 +13,7 @@ description: Open and View PDF Document
   import pInputPassword from '../input-password/InputPassword.vue'
   import pBanner from '../banner/Banner.vue'
   import pToggle from '../toggle/Toggle.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import { withBase } from 'vitepress'
 
   const FILE          = withBase('/assets/pdf/Calibrator-v3.pdf')
@@ -188,7 +188,7 @@ Set `layout` prop to `fit` to enable layout fit mode. It will adapt the viewer h
 | `page`                   | `Number` |   `1`   | `v-model:page` value                                                       |
 | `scale`                  | `Number` |   `1`   | `v-model:scale` value                                                      |
 | `first-nav-label`        | `String` | `First` | Label to place in the first navigation button                              |
-| `last-nav-label`         | `String` | `Last`  | Label to place in the last navigation button                               |  
+| `last-nav-label`         | `String` | `Last`  | Label to place in the last navigation button                               |
 | `num-of-pages-nav-label` | `String` | `of`    | Label to place on the preposition number of pages navigation button        |
 
 ### Slots

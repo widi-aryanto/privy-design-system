@@ -11,13 +11,13 @@
 </template>
 
 <script lang="ts" setup>
-import type { Ref } from 'vue-demi'
+import type { Ref } from 'vue'
 import {
   ref,
   shallowRef,
   triggerRef,
   nextTick,
-} from 'vue-demi'
+} from 'vue'
 import NotifyGroup from './NotifyGroup.vue'
 import type { NotifyOption, NotifyPositionVariant } from '.'
 

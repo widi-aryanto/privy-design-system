@@ -1,5 +1,5 @@
 import { vi } from 'vitest'
-import { nextTick } from 'vue-demi'
+import { nextTick } from 'vue'
 import { MockTour } from '../../__mocks__/tour'
 import StepDelay from './delay'
 

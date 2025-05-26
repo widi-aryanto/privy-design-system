@@ -5,7 +5,7 @@ import {
   fireEvent,
   queryByTestId,
 } from '@testing-library/vue'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import { defineTable } from '../table'
 import Table from './TableStatic.vue'
 

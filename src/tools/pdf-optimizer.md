@@ -20,7 +20,7 @@ layout: false
     watch,
     watchEffect,
     computed,
-  } from 'vue-demi'
+  } from 'vue'
 
   const input  = ref()
   const output = ref()

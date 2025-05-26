@@ -1,5 +1,5 @@
 import { vi } from 'vitest'
-import { nextTick, ref } from 'vue-demi'
+import { nextTick, ref } from 'vue'
 import { fireEvent, render } from '@testing-library/vue'
 import type * as VueUse from '@vueuse/core'
 import { useMediaQuery, setMediaQuery } from './__mocks__/use-window-size'

@@ -30,14 +30,14 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType, VNode } from 'vue-demi'
+import type { PropType, VNode } from 'vue'
 import type { Placement } from '@floating-ui/dom'
 import type { ColorVariant } from '../tooltip'
 import {
   ref,
   provide,
   computed,
-} from 'vue-demi'
+} from 'vue'
 import pTooltip from '../tooltip/Tooltip.vue'
 import { useVModel } from '../input'
 import { onClickOutside } from '@vueuse/core'

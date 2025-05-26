@@ -29,8 +29,8 @@
 
 <script lang="ts" setup>
 import { vPAspectRatio } from '../aspect-ratio'
-import type { PropType } from 'vue-demi'
-import { onMounted, ref } from 'vue-demi'
+import type { PropType } from 'vue'
+import { onMounted, ref } from 'vue'
 import Heading from '../heading/Heading.vue'
 import { getVersion } from './utils/pdfjs'
 

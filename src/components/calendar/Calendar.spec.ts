@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/vue'
-import { ref } from 'vue-demi'
+import { ref } from 'vue'
 import Calendar from './Calendar.vue'
 
 it('should render properly without any props', () => {

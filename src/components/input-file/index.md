@@ -5,7 +5,7 @@ description: Base file-input form.
 
 <script setup>
   import pInputFile from "./InputFile.vue"
-  import { ref } from "vue-demi"
+  import { ref } from 'vue'
 
   const result    = ref()
   const resultB64 = ref()

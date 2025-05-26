@@ -3,12 +3,12 @@
  * TODO: Migrate this component to script setup after defineRender has been release
  * https://github.com/vuejs/rfcs/discussions/585
  */
-import type { Slots } from 'vue-demi'
+import type { Slots } from 'vue'
 import {
   defineComponent,
   h,
   mergeProps,
-} from 'vue-demi'
+} from 'vue'
 import { findAllChildren } from '../utils/vnode'
 import Progress from '../progress/Progress.vue'
 import ProgressItem from '../progress/ProgressItem.vue'

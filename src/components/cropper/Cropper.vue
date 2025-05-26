@@ -115,12 +115,12 @@ import type {
   PropType,
   StyleValue,
   VNode,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   ref,
   toRef,
-} from 'vue-demi'
+} from 'vue'
 import { usePinch } from './utils/use-pinch'
 import pButton from '../button/Button.vue'
 import pInputRange from '../input-range/InputRange.vue'

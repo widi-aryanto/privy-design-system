@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, onMounted } from 'vue-demi'
+  import { ref, onMounted } from 'vue'
   import pTable from '../components/table-static/TableStatic.vue'
   import pLabel from '../components/label/Label.vue'
   import { defineTable } from '../components/table'

@@ -8,7 +8,7 @@ import {
   h,
   KeepAlive,
   Transition,
-} from 'vue-demi'
+} from 'vue'
 import { findAllChildren } from '../utils/vnode'
 
 export default defineComponent({

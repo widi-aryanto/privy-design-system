@@ -1,6 +1,6 @@
 import type { GestureEvent, InteractEvent } from '@interactjs/types'
-import type { Ref } from 'vue-demi'
-import { nextTick } from 'vue-demi'
+import type { Ref } from 'vue'
+import { nextTick } from 'vue'
 import type { EventHooks } from '../utils/use-pinch'
 
 let hooks: EventHooks

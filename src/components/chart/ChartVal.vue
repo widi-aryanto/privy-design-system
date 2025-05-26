@@ -4,7 +4,7 @@
 
 <script lang="ts" setup>
 import type { ChartDataset } from 'chart.js/auto'
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 
 defineOptions({
   name        : 'ChartVal',

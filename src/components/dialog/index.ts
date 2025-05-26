@@ -10,12 +10,12 @@ import type {
   VNode,
   Component,
   HTMLAttributes,
-} from 'vue-demi'
+} from 'vue'
 import {
   ref,
   h,
   mergeProps,
-} from 'vue-demi'
+} from 'vue'
 import pInput from '../input/Input.vue'
 import pFormGroup from '../form-group/FormGroup.vue'
 import type { AcceptVariant } from '../input'

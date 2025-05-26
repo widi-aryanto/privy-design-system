@@ -7,7 +7,7 @@ description: Directive for add tooltip to element.
   import { vPTooltip } from '.'
   import pButton from '../button/Button.vue'
   import pCheckbox from '../checkbox/Checkbox.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
   import { showTooltip, hideTooltip, toggleTooltip } from '.'
 
   const show = ref(false)

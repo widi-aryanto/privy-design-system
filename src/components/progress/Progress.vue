@@ -27,8 +27,8 @@ import type {
   PropType,
   Slots,
   VNode,
-} from 'vue-demi'
-import { computed } from 'vue-demi'
+} from 'vue'
+import { computed } from 'vue'
 import { findAllChildren, toBoolean } from '../utils/vnode'
 import type { IconVariant, TitleVariant } from '.'
 

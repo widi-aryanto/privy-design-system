@@ -7,7 +7,7 @@ description: Generate text for Pdf Object
   import pPdfText from './PdfText.vue'
   import pPdfViewer from '../pdf-viewer/PdfViewer.vue'
   import pPdfObject from '../pdf-object/PdfObject.vue'
-  import { reactive, ref } from 'vue-demi'
+  import { reactive, ref } from 'vue'
   import FILE from '../../public/assets/pdf/Calibrator-v3.pdf?url'
 
   const result    = ref()

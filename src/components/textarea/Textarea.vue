@@ -31,13 +31,13 @@ import {
   checkOnInput,
   useVModel,
 } from '../input'
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   computed,
   onMounted,
   watch,
   ref,
-} from 'vue-demi'
+} from 'vue'
 
 defineOptions({ inheritAttrs: false })
 

@@ -4,7 +4,7 @@ description: Block user for interacting when loading is in progress.
 ---
 
 <script setup>
-  import { ref, onMounted } from 'vue-demi'
+  import { ref, onMounted } from 'vue'
   import { showOverlay, hideOverlay } from '.'
   import Button from '../button/Button.vue'
   import Overlay from './Overlay.vue'

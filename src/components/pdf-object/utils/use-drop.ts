@@ -6,13 +6,13 @@ import { useMutationObserver } from '@vueuse/core'
 import type {
   InjectionKey,
   Ref,
-} from 'vue-demi'
+} from 'vue'
 import {
   onScopeDispose,
   provide,
   ref,
   shallowRef,
-} from 'vue-demi'
+} from 'vue'
 
 export interface DropzoneContext {
   dropzone: Ref<HTMLElement>,

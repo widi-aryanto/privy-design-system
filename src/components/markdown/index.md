@@ -6,7 +6,7 @@ description: Like v-html but support markdown syntax.
 <script setup>
   import { vPMd } from '.'
   import pTextarea from '../textarea/Textarea.vue'
-  import { ref } from 'vue-demi'
+  import { ref } from 'vue'
 
   const text = ref('# Hello World\n> This is markdown')
 </script>

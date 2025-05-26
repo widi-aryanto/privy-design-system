@@ -63,7 +63,7 @@ import {
   computed,
   nextTick,
   shallowRef,
-} from 'vue-demi'
+} from 'vue'
 import Modal from '../modal/Modal.vue'
 import Heading from '../heading/Heading.vue'
 import DialogFooter from './DialogFooter.vue'

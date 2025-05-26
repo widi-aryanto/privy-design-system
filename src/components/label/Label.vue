@@ -19,8 +19,8 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
-import { computed, ref } from 'vue-demi'
+import type { PropType } from 'vue'
+import { computed, ref } from 'vue'
 import Dot from '../dot/Dot.vue'
 import type { StyleVariant } from '.'
 import type { ColorVariant, SizeVariant } from '../button'

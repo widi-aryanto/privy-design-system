@@ -30,8 +30,8 @@
 
 <script lang="ts" setup>
 import { useProgressbar } from '../progressbar'
-import type { PropType } from 'vue-demi'
-import { computed } from 'vue-demi'
+import type { PropType } from 'vue'
+import { computed } from 'vue'
 import { type SizeVariant } from '../button'
 import type { DirectionVariant } from '.'
 

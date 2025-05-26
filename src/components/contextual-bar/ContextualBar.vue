@@ -75,14 +75,14 @@ import type {
   PropType,
   StyleValue,
   VNode,
-} from 'vue-demi'
+} from 'vue'
 import {
   ref,
   computed,
   onMounted,
   onBeforeUnmount,
   watchEffect,
-} from 'vue-demi'
+} from 'vue'
 import type { AlignVariant } from '../nav'
 import { useVModel } from '../input'
 import pCaption from '../caption/Caption.vue'

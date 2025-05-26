@@ -1,5 +1,5 @@
-import { markRaw } from 'vue-demi'
-import type { HTMLAttributes, Component } from 'vue-demi'
+import { markRaw } from 'vue'
+import type { HTMLAttributes, Component } from 'vue'
 import type { ColorVariant } from '../button'
 import type { NotifyInstance, NotifyOption } from '../notify'
 import type { AdditionalAttr } from '../global/types'

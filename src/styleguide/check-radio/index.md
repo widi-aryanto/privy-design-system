@@ -10,7 +10,7 @@ description: Checkbox & radio style guide
   import Card from '../../components/card/Card.vue'
   import IconPersona from '@privyid/persona-icon/vue/persona/20.vue'
   import IconCheck from '@privyid/persona-icon/vue/checkmark-circle/20.vue'
-  import { ref, computed } from "vue-demi"
+  import { ref, computed } from 'vue'
 
   const value  = ref(false)
   const value2 = ref(true)

@@ -14,11 +14,11 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue-demi'
+import type { PropType } from 'vue'
 import {
   inject,
   computed,
-} from 'vue-demi'
+} from 'vue'
 import { DROPDOWN_CONTEXT } from '.'
 import type { TagVariant } from '../button'
 import type { RouteLocationRaw } from 'vue-router'

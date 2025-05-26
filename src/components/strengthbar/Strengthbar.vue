@@ -15,7 +15,7 @@ import { useToNumber } from '@vueuse/core'
 import {
   computed,
   toRef,
-} from 'vue-demi'
+} from 'vue'
 
 const props = defineProps({
   length: {

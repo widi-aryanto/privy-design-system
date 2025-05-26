@@ -48,13 +48,13 @@ import { useClamp } from '@vueuse/math'
 import type {
   PropType,
   StyleValue,
-} from 'vue-demi'
+} from 'vue'
 import {
   computed,
   ref,
   toRef,
   watch,
-} from 'vue-demi'
+} from 'vue'
 import useDrag from './utils/use-drag'
 
 const props = defineProps({
